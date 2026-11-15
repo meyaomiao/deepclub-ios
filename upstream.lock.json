@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/Clarklevis1995/dsh-mobile.git",
+  "commit": "f86f005e3491866a2a7aa03f8894dd606a0dde8b",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 Chaofan Li",
+  "product": "ios-only",
+  "execution_issue": "https://github.com/meyaomiao/deepclub-ios/issues/2",
+  "first_app_issue": "https://github.com/meyaomiao/deepclub-ios/issues/1",
+  "adaptation_base": "6ec0f8462361347cfd0d4a443acb200f4942e408",
+  "plan_issue": "https://github.com/meyaomiao/deepclub/issues/444"
+}

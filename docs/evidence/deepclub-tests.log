@@ -1,0 +1,52 @@
+Test Suite 'DeepClubAccountTests' started at 2026-11-15 上午10:13:58.836.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubAccountTests testCancelledConnectionCannotWriteAfterNewLogin]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubAccountTests testCancelledConnectionCannotWriteAfterNewLogin]' passed (0.006 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubAccountTests testFailedCleanupDoesNotPermitCredentialWrites]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubAccountTests testFailedCleanupDoesNotPermitCredentialWrites]' passed (0.003 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubAccountTests testLogoutSerializesWithAnInFlightCredentialSave]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubAccountTests testLogoutSerializesWithAnInFlightCredentialSave]' passed (0.001 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubAccountTests testSimulatorKeychainRoundTripWithoutUserCredentials]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubAccountTests testSimulatorKeychainRoundTripWithoutUserCredentials]' passed (0.099 seconds).
+Test Suite 'DeepClubAccountTests' passed at 2026-11-15 上午10:13:58.958.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.109 (0.122) seconds
+Test Suite 'DeepClubDeepLinkTests' started at 2026-11-15 上午10:13:58.959.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testBrowserCancellationAndFailureClearIntent]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testBrowserCancellationAndFailureClearIntent]' passed (0.091 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testBrowserStartAndCredentialSaveFailuresClearIntent]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testBrowserStartAndCredentialSaveFailuresClearIntent]' passed (0.101 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testCancelledLoginAndLateSuccessCannotRestoreIntentOrSession]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testCancelledLoginAndLateSuccessCannotRestoreIntentOrSession]' passed (0.045 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testCustomAndUniversalLinkSurviveRealAuthorizationAndConsumeOnce]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testCustomAndUniversalLinkSurviveRealAuthorizationAndConsumeOnce]' passed (0.171 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testExpiryIsRecheckedAfterBrowserSuccess]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testExpiryIsRecheckedAfterBrowserSuccess]' passed (0.086 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testFreshStoreKeepsQRImportAfterLoggedOutRestore]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testFreshStoreKeepsQRImportAfterLoggedOutRestore]' passed (0.532 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testFreshUnpairedAndUnauthenticatedClientsNeverDialAnonymousLocalhost]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testFreshUnpairedAndUnauthenticatedClientsNeverDialAnonymousLocalhost]' passed (0.057 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testPairingFailureStillConsumesOnceAndLogoutClearsWaitingIntent]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testPairingFailureStillConsumesOnceAndLogoutClearsWaitingIntent]' passed (0.032 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testUnknownExpiredAndAuthCallbacksCannotBecomePairingRequests]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testUnknownExpiredAndAuthCallbacksCannotBecomePairingRequests]' passed (0.026 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testWrongStateClearsIntentWithoutExchangingCode]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubDeepLinkTests testWrongStateClearsIntentWithoutExchangingCode]' passed (0.049 seconds).
+Test Suite 'DeepClubDeepLinkTests' passed at 2026-11-15 上午10:14:00.157.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 1.191 (1.198) seconds
+Test Suite 'DeepClubProtocolTests' started at 2026-11-15 上午10:14:00.157.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testCallbackIsOneUseAndExpires]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testCallbackIsOneUseAndExpires]' passed (0.001 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testCallbackRejectsWrongStateOriginAndDuplicateParameters]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testCallbackRejectsWrongStateOriginAndDuplicateParameters]' passed (0.001 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testPhoneSessionIsOnlySentToExactDeepClubRelay]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testPhoneSessionIsOnlySentToExactDeepClubRelay]' passed (0.001 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testS256AndAuthorizationUseRemoteOnlyContract]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testS256AndAuthorizationUseRemoteOnlyContract]' passed (0.001 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testTokenResponseAcceptsActualBackendSessionAndRejectsModelKey]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testTokenResponseAcceptsActualBackendSessionAndRejectsModelKey]' passed (0.002 seconds).
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testUnifiedQRWorksForScanAndAppFallback]' started.
+Test Case '-[DeepSeekHarnessMobileTests.DeepClubProtocolTests testUnifiedQRWorksForScanAndAppFallback]' passed (0.003 seconds).
+Test Suite 'DeepClubProtocolTests' passed at 2026-11-15 上午10:14:00.170.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.010 (0.013) seconds
+	 Executed 20 tests, with 0 failures (0 unexpected) in 1.310 (1.334) seconds
+	 Executed 20 tests, with 0 failures (0 unexpected) in 1.310 (1.336) seconds
+** TEST SUCCEEDED **

@@ -1,0 +1,15 @@
+{
+  "simulator": {
+    "name": "DeepClub2-P2-iPhone",
+    "udid": "C219BB5D-F375-4569-84C1-D4B2D4EEBF84",
+    "runtime": "iOS 26.5",
+    "owner_issue": 2
+  },
+  "state_after_cleanup": "Shutdown",
+  "only_task_owned_udid_shutdown": true,
+  "real_account_sign_in_attempted": false,
+  "startup_observed": "DeepClub login branding/MIT visible; system notification permission alert; security credential cleanup error on unsigned simulator build. Real Keychain/authentication not validated.",
+  "signing_diagnostic_exit_code": 0,
+  "signing_diagnostic": "Executable=/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/DerivedData/Build/Products/Debug-iphonesimulator/DeepClub.app/DeepClub\nwarning: Specifying ':' in the path is deprecated and will not work in a future release\n",
+  "screenshot_sha256": "213b053cac063e845e6f20d3b8243e90de089155b5e2823231404476a9262f22"
+}

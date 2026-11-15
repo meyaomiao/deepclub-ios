@@ -1,0 +1,27 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+Shared read-only dependency cache is an incubating feature.
+Calculating task graph as no cached configuration is available for tasks: :shared:linkDebugFrameworkIosSimulatorArm64
+> Task :shared:kmpPartiallyResolvedDependenciesChecker
+> Task :shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+
+> Task :shared:downloadKotlinNativeDistribution
+Downloading native dependencies (LLVM, sysroot etc). This is a one-time action performed only on the first run of the compiler.
+Downloading dependency https://download.jetbrains.com/kotlin/native/resources/llvm/19-aarch64-macos/llvm-19-aarch64-macos-essentials-81.tar.gz to /Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/konan/dependencies/cache/llvm-19-aarch64-macos-essentials-81.tar.gz
+Done.
+Extracting dependency: /Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/konan/dependencies/cache/llvm-19-aarch64-macos-essentials-81.tar.gz into /Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/konan/dependencies
+Downloading dependency https://download.jetbrains.com/kotlin/native/libffi-3.3-1-macos-arm64.tar.gz to /Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/konan/dependencies/cache/libffi-3.3-1-macos-arm64.tar.gz
+Done.
+Extracting dependency: /Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/konan/dependencies/cache/libffi-3.3-1-macos-arm64.tar.gz into /Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/konan/dependencies
+
+> Task :shared:kspKotlinIosSimulatorArm64
+> Task :shared:copyRoomSchemas NO-SOURCE
+> Task :shared:compileKotlinIosSimulatorArm64
+w: file:///Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/rebuilt-final/shared/build/generated/ksp/iosSimulatorArm64/iosSimulatorArm64Main/kotlin/com/clarklevis/dsh/shared/cache/ChatCacheDatabaseConstructor.kt:5:10 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/rebuilt-final/shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/cache/ChatCacheDatabase.kt:381:10 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :shared:linkDebugFrameworkIosSimulatorArm64
+
+BUILD SUCCESSFUL in 3m 49s
+5 actionable tasks: 5 executed
+Configuration cache entry stored.

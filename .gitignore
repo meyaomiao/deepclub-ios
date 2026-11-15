@@ -1,0 +1,6 @@
+.work/
+.DS_Store
+*.xcresult
+*.ipa
+DerivedData/
+__pycache__/

@@ -1,0 +1,26 @@
+{
+  "images": [
+    {
+      "filename": "deepclub-symbol.svg",
+      "idiom": "universal"
+    },
+    {
+      "filename": "deepclub-symbol-dark.svg",
+      "idiom": "universal",
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ]
+    }
+  ],
+  "info": {
+    "author": "DeepClub",
+    "version": 1
+  },
+  "properties": {
+    "preserves-vector-representation": true,
+    "template-rendering-intent": "original"
+  }
+}

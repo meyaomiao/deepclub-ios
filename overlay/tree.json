@@ -1,0 +1,338 @@
+{
+  "new": {
+    "AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/Contents.json": {
+      "mode": "644",
+      "sha256": "615bc047bbb38c650f8ba1736444b9a6a872382fbb9686ef57f85e33226cab16"
+    },
+    "AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol-dark.svg": {
+      "mode": "644",
+      "sha256": "cb1eb0a829f2c42586d05b912eaf80b842dece96838ae3df383e565e3fd34e8d"
+    },
+    "AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol.svg": {
+      "mode": "644",
+      "sha256": "12ee7b0f248a9a70be3a6b92e48b91848368822d5e8438ce27983958ca0f85b1"
+    },
+    "DeepSeekHarnessMobile/Core/DeepClubAccount.swift": {
+      "mode": "644",
+      "sha256": "96eae9297e2bfbe2b3e5d142c41c0a6370ae1eee423cb93297e4f33422c94236"
+    },
+    "DeepSeekHarnessMobile/Core/DeepClubProtocol.swift": {
+      "mode": "644",
+      "sha256": "8aef1322b5a9e09d35b4eec83158c933e7b00a42fb1fdaddae4d2a886d95663b"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/Contents.json": {
+      "mode": "644",
+      "sha256": "615bc047bbb38c650f8ba1736444b9a6a872382fbb9686ef57f85e33226cab16"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol-dark.svg": {
+      "mode": "644",
+      "sha256": "cb1eb0a829f2c42586d05b912eaf80b842dece96838ae3df383e565e3fd34e8d"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol.svg": {
+      "mode": "644",
+      "sha256": "12ee7b0f248a9a70be3a6b92e48b91848368822d5e8438ce27983958ca0f85b1"
+    },
+    "DeepSeekHarnessMobile/Resources/ThirdPartyNotices.txt": {
+      "mode": "644",
+      "sha256": "5d622dc48be8e383f85ba462afeb6803974ac67639792fabbeb1e57381075c00"
+    },
+    "DeepSeekHarnessMobile/Views/DeepClubAccountView.swift": {
+      "mode": "644",
+      "sha256": "4a7b0b9237f610916a05c973fd3afd9e559ae85b8505fa57db42981942f520d6"
+    },
+    "DeepSeekHarnessMobileTests/DeepClubAccountTests.swift": {
+      "mode": "644",
+      "sha256": "2c52b66df17ff6cbbc766ee5edb58ab044897dce1967c02c5ce8545a0a53b03e"
+    },
+    "DeepSeekHarnessMobileTests/DeepClubDeepLinkTests.swift": {
+      "mode": "644",
+      "sha256": "1215f74e6be139e38897946de02a2af09cfecec5741d0c63ad4466e3713f0d4a"
+    },
+    "DeepSeekHarnessMobileTests/DeepClubProtocolTests.swift": {
+      "mode": "644",
+      "sha256": "319d81c364bc090ac51510d9b3246c6a61aa569aa287a1e0c429bcc25aa9f3d4"
+    }
+  },
+  "removals": {
+    "AgentLiveActivityWidget/Assets.xcassets/WhalenessOrcaMark.imageset/Contents.json": {
+      "before_sha256": "bc323f051211857c7890a7c059775aec2b2de73e5e10109452be29ae24b17af8",
+      "mode": "644"
+    },
+    "AgentLiveActivityWidget/Assets.xcassets/WhalenessOrcaMark.imageset/whaleness-orca-mark.svg": {
+      "before_sha256": "1b3335c7297a709acb6b6818c473a572f1d6a5f98e104d940cf1e19c068c2215",
+      "mode": "644"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/DshOrcaMark.imageset/Contents.json": {
+      "before_sha256": "df648f5a570476e12b623fed5f21a8a8dd9a9dddfd42d4e273c5a9cd4fdf320d",
+      "mode": "644"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/DshOrcaMark.imageset/dsh-orca-mark.svg": {
+      "before_sha256": "1b3335c7297a709acb6b6818c473a572f1d6a5f98e104d940cf1e19c068c2215",
+      "mode": "644"
+    }
+  },
+  "replacements": {
+    "ActionExtension/Assets.xcassets/ActionIcon.appiconset/ActionIcon.png": {
+      "before_sha256": "a480ad17cce80039bb98ec6736d16ce5785182d66588b6b8f073240ac7cabe8d",
+      "mode": "644",
+      "sha256": "0e3c83e838f0f933e494052c9b5574bd2ceb77024cf3464151188eb11a490e27"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-dark.png": {
+      "before_sha256": "41af7f2898563dc953a7d3d4fb8c9d03a166a5fcbb88a9a049e59ab24f6ef852",
+      "mode": "644",
+      "sha256": "0c8f9fa36fd08c9f946bee0bdb61bfa8a8a9a16ed14194b15dcc7351e5d86f9f"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-light.png": {
+      "before_sha256": "9d8e3f105382dfbda0aa00ce3e01a7b752695565dbd036b749182b23dd5424e9",
+      "mode": "644",
+      "sha256": "807aa317d9105649028c235176edd9cfe7c4dd713dde402c8c8d76bf7c31db7a"
+    }
+  },
+  "text": {
+    "ActionExtension/Assets.xcassets/ActionIcon.appiconset/Contents.json": {
+      "before_sha256": "ec50f99c8036d1826770dc97ddf225c195e98117921b7ac3ef2658d200606e96",
+      "mode": "644",
+      "sha256": "1c626fe8a01a78c15c23f44c161fbaa6d46d3b4f0b150fd4fa688e53d9645338"
+    },
+    "ActionExtension/Info.plist": {
+      "before_sha256": "c9938f45be68e786b671d3b2f98ba6370eb31a2e91617332786a346f50c5183a",
+      "mode": "644",
+      "sha256": "2b80bfdca31ad6c3620f73037c39ac910537d00286aa1215c9c312903360f4b5"
+    },
+    "AgentLiveActivityWidget/AgentLiveActivityWidget.swift": {
+      "before_sha256": "0f86391a13cbc062028f5ade56ae1c90a00c4c3e9b99cca39afc74b75f1e152e",
+      "mode": "644",
+      "sha256": "434b5c8fbc6c87d896ba808bd20e66997d7f8f926fa51658696537e065fc69cd"
+    },
+    "AgentLiveActivityWidget/Info.plist": {
+      "before_sha256": "61e4dac55cb83d03ca1ab33a07592b36e3bdc1edc74d3e40ac0edcd2898335dd",
+      "mode": "644",
+      "sha256": "2ae70ac3b45b401a003ccbd9b77b5c234efbcdcc67ab8ca7fc3607ccbc2c221e"
+    },
+    "AgentLiveActivityWidget/InfoPlist.xcstrings": {
+      "before_sha256": "423117a4bda081f16acc4bff3e47d76369dac48bbb3b3ab3182ba29d21d14d9e",
+      "mode": "644",
+      "sha256": "88a1c25825d75ba5948bd8ca56515da2332a345cfb003ae272df2be2581aae84"
+    },
+    "AgentLiveActivityWidget/Localizable.xcstrings": {
+      "before_sha256": "cf135f76dac77697e6a0ce0800bd395c893b2982f6d2ba401b5d7e547905bcb0",
+      "mode": "644",
+      "sha256": "059bd118cc8939ed8376879f4d3e7af00132d265a958f2b131db749abf5f7679"
+    },
+    "AppRelease/release-info.json": {
+      "before_sha256": "795a1a4bd3b56542cecca4c78a1a52dbd68c7e60d4fc2c568cad941a99e7bdc7",
+      "mode": "644",
+      "sha256": "10ca5718eeceadc6a5f1c3812791bae0057931f462dd27c1a3a1ea62f166d918"
+    },
+    "AppRelease/release-notes.md": {
+      "before_sha256": "9d6c313227ca6057e0630ab0f9b560620c8b5dab72442f4aba40327cbfcade2a",
+      "mode": "644",
+      "sha256": "4e6192d4c63b3f5f242c7a1992628c0649d2fdab838f8142ced155769dbf264c"
+    },
+    "DeepSeekHarnessMobile.xcodeproj/project.pbxproj": {
+      "before_sha256": "4f3a9e2b32317bc83908bda2735fc71d1ef4a8b24e2863dca4600544d035d269",
+      "mode": "644",
+      "sha256": "5194bfb4558017971b8ce11c3c8b4694cb07326a012dde28bdc1e382c401cfd2"
+    },
+    "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/DeepSeekHarnessMobile.xcscheme": {
+      "before_sha256": "58c06e24325aa0a552406d8a25d22ee0a3ff63f0dbf8efe25309a5819ba42e80",
+      "mode": "644",
+      "sha256": "efb1136527f7e3eff82ef563338bdbde5da8383e10a78bdc1b6e280d61811f0a"
+    },
+    "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/ShareInboxTests.xcscheme": {
+      "before_sha256": "40cacbfae16f2fbb061be26217d8000195561e70fb0fd0a3920636b69954d9b9",
+      "mode": "644",
+      "sha256": "482648284ace86bbd058309434bc05811052ab1e6226792fe47c2d1768b00a18"
+    },
+    "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/WorkspaceDrawerUITests.xcscheme": {
+      "before_sha256": "58c06e24325aa0a552406d8a25d22ee0a3ff63f0dbf8efe25309a5819ba42e80",
+      "mode": "644",
+      "sha256": "efb1136527f7e3eff82ef563338bdbde5da8383e10a78bdc1b6e280d61811f0a"
+    },
+    "DeepSeekHarnessMobile/App/DeepSeekHarnessMobileApp.swift": {
+      "before_sha256": "ea0d3fc990ac42ee4f9806b19d6cd3b07017f15ad43613c1bfa9ca15c67ee3ea",
+      "mode": "644",
+      "sha256": "7b8c18adcc024eb8e9a36b75c2f17e6c3de1e2de0c1de753ce51e8fd20d6314b"
+    },
+    "DeepSeekHarnessMobile/Components/Glass.swift": {
+      "before_sha256": "02f08f488eb40a0dfc833130c69da2fd33ca27ba47959e501449ae973133cbd6",
+      "mode": "644",
+      "sha256": "002950e236237e6864bc9033f3447774ea845ef352e6e6b2fc021f575c906f2a"
+    },
+    "DeepSeekHarnessMobile/Components/HarnessAnimatedBackground.swift": {
+      "before_sha256": "98b0c051fdd587b9c51b6424164fbfe3e96bd0c86c59eca998ae100b15b010ff",
+      "mode": "644",
+      "sha256": "877d395ae465b894a5b7040976918a4091a908ffb64fb1f84f798c85385e98f2"
+    },
+    "DeepSeekHarnessMobile/Components/WorkspaceLoadingLogo.swift": {
+      "before_sha256": "a7b83b8c7dea71be5833a772718b6c31d502ce33d778152f4421fddd7df90eea",
+      "mode": "644",
+      "sha256": "63e93cd95a305bacc66108a76a6ea245d1d3f18297d05dc5744faa6b95945a15"
+    },
+    "DeepSeekHarnessMobile/Core/AgentBackgroundExecutionController.swift": {
+      "before_sha256": "73e03ec135997835a3c6d17c1abbefa3904920c371ce8dcc6d1e7930c0f52a55",
+      "mode": "644",
+      "sha256": "a55dc78366298345ae0039b4d7650d9effe322e7d51aba558bd9e1c5fb4dd8fb"
+    },
+    "DeepSeekHarnessMobile/Core/AppStore.swift": {
+      "before_sha256": "ce701f327b2699f051cc42d3b39f9b884fb1e519088b52c78348b8bedf09420c",
+      "mode": "644",
+      "sha256": "11deb9c7aed55bae5feb1333afa5752999439386d1cde98ee43ad5e1ab9cc665"
+    },
+    "DeepSeekHarnessMobile/Core/GatewayClient.swift": {
+      "before_sha256": "7fda0e3103360f408019c97526c132fe7a23f0683d78fcd2b04fb22cff1e14f7",
+      "mode": "644",
+      "sha256": "c9ff58f31cc2fca75eb29476e61e9bc8e2696c31cedd6cf6bd4875faffe029cb"
+    },
+    "DeepSeekHarnessMobile/Core/GatewayModels.swift": {
+      "before_sha256": "31a7a17ad80278f993d317c3b312f1714961f495552538692efd8c35af03c2e7",
+      "mode": "644",
+      "sha256": "83bdf61f42a8f2d20649f1a85a30f519df47fd15c7ea4c2c02f3715533c57ff3"
+    },
+    "DeepSeekHarnessMobile/Core/GatewayProfile.swift": {
+      "before_sha256": "3a34579f866b49167a0fa2da3437958c7b3fa4341ffeefb62bf98a92f817b5f2",
+      "mode": "644",
+      "sha256": "9c69f6aed807c573aff54cef1aca9548404055c29bdcab2c5705863d4e11e59d"
+    },
+    "DeepSeekHarnessMobile/Core/IncomingShareCoordinator.swift": {
+      "before_sha256": "8c87432010eceaa383f3f772d9513e414bf9f71cd3532ec4bd36fd179d804360",
+      "mode": "644",
+      "sha256": "8e66ddbd55d8f2aca03863dcb82cea4e4306c53a54832339c07c4072ab81d1b6"
+    },
+    "DeepSeekHarnessMobile/Core/LocalAppLog.swift": {
+      "before_sha256": "643a441d33188d3798f6c0d3b46ef28b4021985d6209efaf64ece181802ebae1",
+      "mode": "644",
+      "sha256": "b8e963d0db49f9da2d514ea7549a3388948bfc942100c51059a0af9c0017ae8a"
+    },
+    "DeepSeekHarnessMobile/Core/MultiGatewayStore.swift": {
+      "before_sha256": "f9c56c45024057b482fe7dbd28b5f44c4727a17d8b35541e869e0b66bec46197",
+      "mode": "644",
+      "sha256": "d98ad0ae25f3e3b939456826253e23f5264094708071878add02ce4b4db6b32c"
+    },
+    "DeepSeekHarnessMobile/Core/PairingPayloadParser.swift": {
+      "before_sha256": "ce536afb6c24a22a097edef69d22ed363e0bd6dc36af506ac732c2c6f5524e90",
+      "mode": "644",
+      "sha256": "6a5ce5b0127a2d938d1edbe207721a49130f4764df411a3ce330cebea7bd4431"
+    },
+    "DeepSeekHarnessMobile/Core/Theme.swift": {
+      "before_sha256": "a50bf343eba04f36fe811f5704c23d014d1158be1d240e067877ffd81c5ae600",
+      "mode": "644",
+      "sha256": "5fbde67e84abf704c7afc4f32c2efe7a346cc3242ecb3adabf673d1a6c545cd0"
+    },
+    "DeepSeekHarnessMobile/Core/TsnetTunnel.swift": {
+      "before_sha256": "5a945d0288024c84dc97194e0cebb7b4f1bcf6090b515a0568f0a29f42c47599",
+      "mode": "644",
+      "sha256": "229006840bdffbca23522019b7635fcc3b95ccf13c9e4d2ffaa284ba7d2756fc"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/AccentColor.colorset/Contents.json": {
+      "before_sha256": "2e2595329fa60c9eae1d567d23e6c1cb34267ddf4ba8dd839574ebbf5fc39fe1",
+      "mode": "644",
+      "sha256": "a5e96dc2172bd88d779c90c9ac3db9fc3f128c14d885dbd6955563098e558a2e"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/Contents.json": {
+      "before_sha256": "0da8e8b82ebd4e4e46ea52439d2429e3afa8aedd459e51b04d82cdefd99597ed",
+      "mode": "644",
+      "sha256": "c958d41130697ce0127f0c8ff82368b4e51f02f779cee37d5b16128e894f2fa3"
+    },
+    "DeepSeekHarnessMobile/Resources/Info.plist": {
+      "before_sha256": "d693bd55971b53aaafb8ba136f6cd9a82d0d168010bd08a85a65119b43ca09bf",
+      "mode": "644",
+      "sha256": "5b75d3e6ff7007e79b538a0b0e7beb2d06fc4a9c6253123c92c81c59f9ac89f2"
+    },
+    "DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings": {
+      "before_sha256": "3a375d850f3638765e09c3fad429cf57771b7775a0a08da26909650defa4f3fe",
+      "mode": "644",
+      "sha256": "6408fdcb7031a6265fca3237e8e6a4c8b985ccaa56db378d9d074e5482c29fab"
+    },
+    "DeepSeekHarnessMobile/Resources/LaunchScreen.storyboard": {
+      "before_sha256": "f5b143c8a79fd4bd54f8b6ff6f416a90a5ab58effac9d12c43eed6e0ef46a8e7",
+      "mode": "644",
+      "sha256": "fb1633e7dce011a997041ac94026f75b6972b48aec775ceb92e8acf302401b30"
+    },
+    "DeepSeekHarnessMobile/Resources/Localizable.xcstrings": {
+      "before_sha256": "5c58024d3a1bed3af1b27a008503e9a3ddcb64468bec303270f13a00af00e9a4",
+      "mode": "644",
+      "sha256": "9e019515f40beacf1bf4ab9b05b080c6b40fbd43ccc99cfe7e965252e40a8e8b"
+    },
+    "DeepSeekHarnessMobile/Resources/Sharing.entitlements": {
+      "before_sha256": "26000ed5d584c73f0dbb4521edd21db2c73b7720bdcd06abeb923c4ea331428a",
+      "mode": "644",
+      "sha256": "47accece8a463f4a00eb698d174e79a38f00284096c0568fd86d43b16d15aad2"
+    },
+    "DeepSeekHarnessMobile/Views/RootView.swift": {
+      "before_sha256": "9fa99189a3a2e5d3cae504725b2db4fd828348e7b83777aa0e62971a994772ed",
+      "mode": "644",
+      "sha256": "36ba590951c60a40bc65ebe8fc69526ee005197059145ce778e745f0c50092f8"
+    },
+    "DeepSeekHarnessMobile/Views/SettingsView.swift": {
+      "before_sha256": "cc65ffa5cdc3bf89232e21ad9f3cfc79687197934b51df1f697aef6f20fc1909",
+      "mode": "644",
+      "sha256": "1785867c3b05e262ac91825e59792f8b124834b632c21797a3ae74c23755e3de"
+    },
+    "DeepSeekHarnessMobile/Views/WorkspaceView.swift": {
+      "before_sha256": "ef96ae5965ec7f3099eb77883c802466e2630b7765e3388ffe070c92a7005b78",
+      "mode": "644",
+      "sha256": "552cf50612d5f00e315b32c199d871f40ad3d229f26cfb218dd9791d159a1972"
+    },
+    "DeepSeekHarnessMobileTests/CodeSyntaxHighlighterTests.swift": {
+      "before_sha256": "8ee487885e0fd8948045259f2602f5d37e702b3340a4009a0bde60b989172774",
+      "mode": "644",
+      "sha256": "5c77d7c1f4c49e2164270ec5497a699dfbf91454922e06a46acf279652e2e3f4"
+    },
+    "DeepSeekHarnessMobileUITests/RealSessionScrollPerformanceTests.swift": {
+      "before_sha256": "a4874cc6f50afde16e6681568effa2eae6439e3830d1d019b1b141cba30a3636",
+      "mode": "644",
+      "sha256": "aaad0212f7a3f0c7e7b2d106734629d47698aee6a9245912aa22a0e3630a56ec"
+    },
+    "ShareExtension/Info.plist": {
+      "before_sha256": "83d6c62393af74b5d5806529fbff5048598d77dfadb94f29798f7db21a005371",
+      "mode": "644",
+      "sha256": "c8fe4b18748c155d404e803c3a8c8720466805b850d3cf37bc007d7823433f70"
+    },
+    "ShareExtension/ShareViewController.swift": {
+      "before_sha256": "01867bacfa21ca9552a6f5e841a13a248277377be0c24395ba16d2f3298a64b9",
+      "mode": "644",
+      "sha256": "ab74d58ce59e2fccf17b6ccb8afa6a45b64328f15339ab713f0dd198501412fc"
+    },
+    "ShareSupport/ShareInbox.swift": {
+      "before_sha256": "2ff2701b88fff82f2ef516c14f495cc92a179e09c0b36707a99332112b14fd96",
+      "mode": "644",
+      "sha256": "dd908a92463f7614543aafa5741debc8a3e26ed6b01f16dce5bf0ced3678299e"
+    },
+    "Vendor/swift-markdown-ui/Package.swift": {
+      "before_sha256": "e14ae70c76c2ede1e5af86403c8356c1d494cbaeb0a9902c437653c4728ae692",
+      "mode": "644",
+      "sha256": "b09ea4e65192444e46b5b32569abb8babc43fa118d619fd880af2631510f0e56"
+    },
+    "build.gradle.kts": {
+      "before_sha256": "1fb9e7e66024d15df86b90746b44af90ab281f872459035b1e2f7e41f306ad5c",
+      "mode": "644",
+      "sha256": "6ed61df09ec861bd440d6c966b436824c034ef569eabb4026bd2dc223d15e797"
+    },
+    "config/Debug.xcconfig": {
+      "before_sha256": "77357f89a5a1c436b2d09792b74dbdd536d10efe0ab8fb49c476774d13171fff",
+      "mode": "644",
+      "sha256": "2927f27b9e40b197eb5b81943638d39bf06a53badfa1359d9213eb9a922b9da6"
+    },
+    "config/Local.xcconfig.example": {
+      "before_sha256": "cdf1e2d192974c40c7314ee3db53dd357bbfa528a9c26ae9c153a7385b2a262b",
+      "mode": "644",
+      "sha256": "3282c661490be6d10d53482f807523e07c51e1454701445403e0c365f5983d89"
+    },
+    "config/README.md": {
+      "before_sha256": "d412d28101e6f6059266c72aa36970a8fa7dade5a4ea3ed345539b3a12b7b809",
+      "mode": "644",
+      "sha256": "354af627720dc3b8159132bdbaad5ebb92a9db290ace947abfb0dc205197f6ab"
+    },
+    "settings.gradle.kts": {
+      "before_sha256": "8c925e2634320dedab26d9a35b22f82c0f6562405f0c958a9a778816c7d1fa7d",
+      "mode": "644",
+      "sha256": "f3b173621d82cd43739a2125e8095d43c398cb1d9fd149dd9d534677589a116d"
+    },
+    "shared/build.gradle.kts": {
+      "before_sha256": "b967d2479f16a740247ff62a69f3089e8aeba6ec864c4b700b53828d6fadeb03",
+      "mode": "644",
+      "sha256": "216e526171565632bf915d8b3e49a0ec7fe813139660cad4eb0f6552750390d5"
+    }
+  }
+}

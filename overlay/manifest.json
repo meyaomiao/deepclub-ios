@@ -1,0 +1,26 @@
+{
+  "artifacts": {
+    "deepclub.patch": "9c72dcc2c030ea27b2adba4e7450883d550120f4e8beb83f353e2c86d8ede313",
+    "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/Contents.json": "615bc047bbb38c650f8ba1736444b9a6a872382fbb9686ef57f85e33226cab16",
+    "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol-dark.svg": "cb1eb0a829f2c42586d05b912eaf80b842dece96838ae3df383e565e3fd34e8d",
+    "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol.svg": "12ee7b0f248a9a70be3a6b92e48b91848368822d5e8438ce27983958ca0f85b1",
+    "new/DeepSeekHarnessMobile/Core/DeepClubAccount.swift": "96eae9297e2bfbe2b3e5d142c41c0a6370ae1eee423cb93297e4f33422c94236",
+    "new/DeepSeekHarnessMobile/Core/DeepClubProtocol.swift": "8aef1322b5a9e09d35b4eec83158c933e7b00a42fb1fdaddae4d2a886d95663b",
+    "new/DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/Contents.json": "615bc047bbb38c650f8ba1736444b9a6a872382fbb9686ef57f85e33226cab16",
+    "new/DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol-dark.svg": "cb1eb0a829f2c42586d05b912eaf80b842dece96838ae3df383e565e3fd34e8d",
+    "new/DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol.svg": "12ee7b0f248a9a70be3a6b92e48b91848368822d5e8438ce27983958ca0f85b1",
+    "new/DeepSeekHarnessMobile/Resources/ThirdPartyNotices.txt": "5d622dc48be8e383f85ba462afeb6803974ac67639792fabbeb1e57381075c00",
+    "new/DeepSeekHarnessMobile/Views/DeepClubAccountView.swift": "4a7b0b9237f610916a05c973fd3afd9e559ae85b8505fa57db42981942f520d6",
+    "new/DeepSeekHarnessMobileTests/DeepClubAccountTests.swift": "2c52b66df17ff6cbbc766ee5edb58ab044897dce1967c02c5ce8545a0a53b03e",
+    "new/DeepSeekHarnessMobileTests/DeepClubDeepLinkTests.swift": "1215f74e6be139e38897946de02a2af09cfecec5741d0c63ad4466e3713f0d4a",
+    "new/DeepSeekHarnessMobileTests/DeepClubProtocolTests.swift": "319d81c364bc090ac51510d9b3246c6a61aa569aa287a1e0c429bcc25aa9f3d4",
+    "replace/ActionExtension/Assets.xcassets/ActionIcon.appiconset/ActionIcon.png": "0e3c83e838f0f933e494052c9b5574bd2ceb77024cf3464151188eb11a490e27",
+    "replace/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-dark.png": "0c8f9fa36fd08c9f946bee0bdb61bfa8a8a9a16ed14194b15dcc7351e5d86f9f",
+    "replace/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-light.png": "807aa317d9105649028c235176edd9cfe7c4dd713dde402c8c8d76bf7c31db7a",
+    "source-state.json": "f2f737c5ee08ad02000c9596511a35b8c9c5211287b96d3fbdfb5fc9bad27f29",
+    "tree.json": "fef32edaa458d2904537ef0dbc7ba25da1d8ae67837370820b533147b7409079",
+    "upstream-state.json": "8cd0bb994d6bccc8023ee38ad2277466f5bb51b60c0780b18ad526e33491ee55"
+  },
+  "schema": 1,
+  "upstream_commit": "f86f005e3491866a2a7aa03f8894dd606a0dde8b"
+}

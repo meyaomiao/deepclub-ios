@@ -1,0 +1,57 @@
+{
+  "adaptation_base": "6ec0f8462361347cfd0d4a443acb200f4942e408",
+  "artifacts": {
+    "app_debug_dylib": {
+      "bytes": 74444224,
+      "sha256": "dcbd23093536d14cef2698eb8a1ae83dd8d4f0299418afb1a1424d8dd1b7b4f7"
+    },
+    "app_loader": {
+      "bytes": 58608,
+      "sha256": "9cb9e9dfd6b803cadf6bcf50792b4e0a0adaf061c42943abeb8e65c917384ba7"
+    },
+    "kmp_framework": {
+      "bytes": 56639832,
+      "sha256": "eddc6c97da59ffd41c64fe1c6dbbea5d880ca8aa2763e76fbddf25109d63bf0a"
+    }
+  },
+  "collections": {
+    "new": 13,
+    "removals": 4,
+    "replacements": 3,
+    "text": 49
+  },
+  "compiled_source_files_verified_after_test": 1115,
+  "export_files": 1115,
+  "log_sha256": {
+    "adhoc-xcode-build.log": "d4c4e1f34cd374b60012cabb746ad3c5f208fb7235d80cdfbca23bee2f7e52b2",
+    "adhoc-xcode-test.log": "101cffc5d2e1fdc5b1875b603b9fbf691ea099016c9c02f02f65296d4cf11755",
+    "keychain-unsigned.log": "7f47f308201bd4d1fd9c433c650d32248c50876e7e71eaad0682e66d632b920f",
+    "kmp-final.log": "0ecc6e1a101a1d978301b70e0948c063ffa91b5c26f8975866e436c5762edd24"
+  },
+  "manifest_sha256": "52efc6d1f9aa92a49bfb02f9701941916bf635bb07132292fc3815ca74e45072",
+  "original_source_after": {
+    "tracked_binary_diff_bytes": 2281589,
+    "tracked_binary_diff_sha256": "9f70d2a4046a4d7509b18d0e0a5262a6218bab26b4eec0036c0ed76b008033b6",
+    "untracked_sha256": "218e4758e373c9622de1c8623c5b066908f2a8cc8881d498d7688dc5042e8d26"
+  },
+  "original_source_before": {
+    "tracked_binary_diff_bytes": 2281589,
+    "tracked_binary_diff_sha256": "9f70d2a4046a4d7509b18d0e0a5262a6218bab26b4eec0036c0ed76b008033b6",
+    "untracked_sha256": "218e4758e373c9622de1c8623c5b066908f2a8cc8881d498d7688dc5042e8d26"
+  },
+  "simulator": {
+    "name": "DeepClub2-P2-iPhone",
+    "owner_issue": 2,
+    "runtime": "iOS 26.5",
+    "udid": "C219BB5D-F375-4569-84C1-D4B2D4EEBF84"
+  },
+  "source_state_sha256": "f2f737c5ee08ad02000c9596511a35b8c9c5211287b96d3fbdfb5fc9bad27f29",
+  "tests": {
+    "executed": 20,
+    "failures": 0,
+    "kind": "XCTest: 19 logical tests with synthetic browser/account/network plus actual temporary system Keychain round-trip and clean fresh account state on iOS Simulator 26.5; ad-hoc signing with no certificate/Team",
+    "result_bundle": "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/DeepClubAdhocTests-20261115T101039.xcresult"
+  },
+  "unexpected_exportable_files": [],
+  "upstream_commit": "f86f005e3491866a2a7aa03f8894dd606a0dde8b"
+}
