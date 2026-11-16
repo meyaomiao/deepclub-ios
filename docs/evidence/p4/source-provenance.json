@@ -1,0 +1,12 @@
+{
+  "export_files": 1118,
+  "source_state_sha256": "551f99bfb2446ce93965bee5ee5bd45253a0a45ce360bf8868e4e130dc6046ab",
+  "manifest_sha256": "4698f8d1d01ef483cc77b3fe41cab9c3724f70ed492ec569f6454882eb29b6eb",
+  "source_build_clean_mismatches": [],
+  "verification_mode": "canonical scripts.overlaylib.file_state",
+  "frozen_p2_head": "c8f0bd3ee5c25393a5c3f32eb01d38267075446b",
+  "frozen_p2_status": "",
+  "frozen_p2_manifest_sha256": "52efc6d1f9aa92a49bfb02f9701941916bf635bb07132292fc3815ca74e45072",
+  "frozen_p2_source_state_sha256": "f2f737c5ee08ad02000c9596511a35b8c9c5211287b96d3fbdfb5fc9bad27f29",
+  "uncompiled_lazy_mitigation_in_delivery": false
+}

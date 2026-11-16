@@ -313,10 +313,10 @@ index 4906aef..e21cd85 100644
 -```
 +该版本的自动检查与模拟器结果分别记录于 owner 仓库的构建证据。真机签名、Universal Link、生产账号和真实跨设备配对需各自验证，不能由模拟器构建结果推定通过。
 diff --git a/DeepSeekHarnessMobile.xcodeproj/project.pbxproj b/DeepSeekHarnessMobile.xcodeproj/project.pbxproj
-index 86203c5..57a6340 100644
+index 86203c5..55fb8a0 100644
 --- a/DeepSeekHarnessMobile.xcodeproj/project.pbxproj
 +++ b/DeepSeekHarnessMobile.xcodeproj/project.pbxproj
-@@ -6,20 +6,14 @@
+@@ -6,20 +6,16 @@
  	objectVersion = 60;
  	objects = {
  
@@ -334,6 +334,8 @@ index 86203c5..57a6340 100644
 -/* End PBXAggregateTarget section */
 -
  /* Begin PBXBuildFile section */
++		D44400000000000000000003 /* P4RedactedInput.m in Sources */ = {isa = PBXBuildFile; fileRef = D44400000000000000000004; };
++		D44400000000000000000001 /* P4LocalIntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44400000000000000000002; };
 +        DC1500000000000000000001 /* DeepClubDeepLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1500000000000000000002 /* DeepClubDeepLinkTests.swift */; };
 +		DC1400000000000000000007 /* DeepClubProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1400000000000000000008 /* DeepClubProtocolTests.swift */; };
 +		DC1400000000000000000009 /* DeepClubAccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC140000000000000000000A /* DeepClubAccountTests.swift */; };
@@ -344,7 +346,7 @@ index 86203c5..57a6340 100644
  		A0C1234567890ABCDE0000003 /* WorkspaceChangesViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1234567890ABCDE0000004 /* WorkspaceChangesViewTests.swift */; };
  		A0C1234567890ABCDE0000001 /* WorkspaceChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C1234567890ABCDE0000002 /* WorkspaceChangesView.swift */; };
  		D5A7E0010000000000000011 = {isa = PBXBuildFile; fileRef = D5A7E0010000000000000012; };
-@@ -37,7 +31,6 @@
+@@ -37,7 +33,6 @@
  		A9FF00000000000000000001 /* TsnetTunnel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FF00000000000000000002 /* TsnetTunnel.swift */; };
  		AC0300000000000000000001 /* TailscaleTunnelSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0300000000000000000002 /* TailscaleTunnelSettings.swift */; };
  		AC0400000000000000000001 /* TailscaleTunnelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0400000000000000000002 /* TailscaleTunnelController.swift */; };
@@ -352,7 +354,7 @@ index 86203c5..57a6340 100644
  		DA3100000000000000000003 /* LocalAppLogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3100000000000000000004 /* LocalAppLogTests.swift */; };
  		DA3100000000000000000001 /* LocalAppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3100000000000000000002 /* LocalAppLog.swift */; };
  		CA7400000000000000000001 /* WorkspaceSessionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7400000000000000000002 /* WorkspaceSessionList.swift */; };
-@@ -145,7 +138,6 @@
+@@ -145,7 +140,6 @@
  /* End PBXBuildFile section */
  
  /* Begin PBXContainerItemProxy section */
@@ -360,10 +362,12 @@ index 86203c5..57a6340 100644
  		A1CBB12844986E16990B5C5A /* PBXContainerItemProxy */ = {
  			isa = PBXContainerItemProxy;
  			containerPortal = DBC59CB58F3644757A020517 /* Project object */;
-@@ -181,6 +173,13 @@
+@@ -181,6 +175,15 @@
  /* End PBXCopyFilesBuildPhase section */
  
  /* Begin PBXFileReference section */
++		D44400000000000000000004 /* P4RedactedInput.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeepSeekHarnessMobileUITests/P4RedactedInput.m; sourceTree = SOURCE_ROOT; };
++		D44400000000000000000002 /* P4LocalIntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepSeekHarnessMobileUITests/P4LocalIntegrationUITests.swift; sourceTree = SOURCE_ROOT; };
 +        DC1500000000000000000002 /* DeepClubDeepLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepClubDeepLinkTests.swift; sourceTree = "<group>"; };
 +		DC140000000000000000000C /* ThirdPartyNotices.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThirdPartyNotices.txt; sourceTree = "<group>"; };
 +		DC140000000000000000000A /* DeepClubAccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepClubAccountTests.swift; sourceTree = "<group>"; };
@@ -374,7 +378,7 @@ index 86203c5..57a6340 100644
  		A0C1234567890ABCDE0000004 /* WorkspaceChangesViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceChangesViewTests.swift; sourceTree = "<group>"; };
  		A0C1234567890ABCDE0000002 /* WorkspaceChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceChangesView.swift; sourceTree = "<group>"; };
  		D5A7E0010000000000000012 = {isa = PBXFileReference; lastKnownFileType = text.json; path = Tests/Fixtures/latex-math.json; sourceTree = SOURCE_ROOT; };
-@@ -199,7 +198,6 @@
+@@ -199,7 +202,6 @@
  		A9FF00000000000000000002 /* TsnetTunnel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TsnetTunnel.swift; sourceTree = "<group>"; };
  		AC0300000000000000000002 /* TailscaleTunnelSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailscaleTunnelSettings.swift; sourceTree = "<group>"; };
  		AC0400000000000000000002 /* TailscaleTunnelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TailscaleTunnelController.swift; sourceTree = "<group>"; };
@@ -382,7 +386,7 @@ index 86203c5..57a6340 100644
  		DA3100000000000000000004 /* LocalAppLogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAppLogTests.swift; sourceTree = "<group>"; };
  		DA3100000000000000000002 /* LocalAppLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAppLog.swift; sourceTree = "<group>"; };
  		CA7400000000000000000002 /* WorkspaceSessionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkspaceSessionList.swift; sourceTree = "<group>"; };
-@@ -207,7 +205,7 @@
+@@ -207,7 +209,7 @@
  		0B53A008218F24CA9A4DB4D1 /* GatewayProtocolTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GatewayProtocolTests.swift; sourceTree = "<group>"; };
  		12863E736F832D8F502B94A0 /* Theme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
  		152A3874C0D169644C9C7B6D /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -391,7 +395,7 @@ index 86203c5..57a6340 100644
  		430CA64DF207C7EF58574336 /* DeepSeekHarnessMobileApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeepSeekHarnessMobileApp.swift; sourceTree = "<group>"; };
  		59B069578BB7F31AD35F601A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
  		5A37B43613D712F252BA91D7 /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-@@ -247,7 +245,7 @@
+@@ -247,7 +249,7 @@
  		B0C0FFEE0000000000000004 /* HarnessBackground.metal */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.metal; path = HarnessBackground.metal; sourceTree = "<group>"; };
  		B10000000000000000000002 /* PluginsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PluginsView.swift; sourceTree = "<group>"; };
  		B64F29E9B8346B9A678CA487 /* DeepSeekHarnessMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeepSeekHarnessMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -400,7 +404,7 @@ index 86203c5..57a6340 100644
  		CA11E0000000000000000002 /* ImageAttachmentCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageAttachmentCache.swift; sourceTree = "<group>"; };
  		CA11E0000000000000000004 /* ImagePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePreprocessor.swift; sourceTree = "<group>"; };
  		CA11E000000000000000000A /* L10n.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
-@@ -312,7 +310,6 @@
+@@ -312,7 +314,6 @@
  			files = (
  				F5CD0CFD51B8D80944F87550 /* Foundation.framework in Frameworks */,
  				E73A2DB9D678DA4B8C01E349 /* MarkdownUI in Frameworks */,
@@ -408,7 +412,7 @@ index 86203c5..57a6340 100644
  				CF228000000000000000003 /* SwiftMath in Frameworks */,
  				C7A710000000000000000001 /* ChatLayout in Frameworks */,
  			);
-@@ -348,6 +345,8 @@
+@@ -348,6 +349,8 @@
  		08B74F3553B9DFCE13B07DE9 /* Core */ = {
  			isa = PBXGroup;
  			children = (
@@ -417,7 +421,7 @@ index 86203c5..57a6340 100644
  				CA7400000000000000000002 /* WorkspaceSessionList.swift */,
  				873D1E0F3E1B1B2CB2366B06 /* VoiceInputAdapter.swift */,
  				AC1200000000000000000002 /* VoiceAudioExceptionGuard.m */,
-@@ -398,6 +397,9 @@
+@@ -398,6 +401,9 @@
  		0CABA197D44C2A9AA01CF6FF /* DeepSeekHarnessMobileTests */ = {
  			isa = PBXGroup;
  			children = (
@@ -427,7 +431,7 @@ index 86203c5..57a6340 100644
  				CA7400000000000000000004 /* WorkspaceSessionListTests.swift */,
  				0B53A008218F24CA9A4DB4D1 /* GatewayProtocolTests.swift */,
  				A0C1234567890ABCDE0000004 /* WorkspaceChangesViewTests.swift */,
-@@ -450,7 +452,6 @@
+@@ -450,7 +456,6 @@
  				D7854C843240E809A949A26E /* Products */,
  				20DF8D6DFD28A5D750C6FC28 /* Frameworks */,
  				3BAEAAE97D242C997E1AB80A /* DeepSeekHarnessMobile */,
@@ -435,7 +439,7 @@ index 86203c5..57a6340 100644
  				F1A000000000000000000021 /* AgentLiveActivityWidget */,
  				0CABA197D44C2A9AA01CF6FF /* DeepSeekHarnessMobileTests */,
  				F2B000000000000000000004 /* DeepSeekHarnessMobileUITests */,
-@@ -474,6 +475,7 @@
+@@ -474,6 +479,7 @@
  		7CECE0900CF815A6EB3A938D /* Resources */ = {
  			isa = PBXGroup;
  			children = (
@@ -443,7 +447,7 @@ index 86203c5..57a6340 100644
  				AB0170000000000000000003 /* ../../AppRelease/release-info.json */,
  				AB0170000000000000000004 /* ../../AppRelease/release-notes.md */,
  				59B069578BB7F31AD35F601A /* Info.plist */,
-@@ -515,6 +517,7 @@
+@@ -515,6 +521,7 @@
  		C0FFC63B1CD5F1F40418350B /* Views */ = {
  			isa = PBXGroup;
  			children = (
@@ -451,7 +455,7 @@ index 86203c5..57a6340 100644
  				EEABECFD00017A6E10B1F4A2 /* ConversationView.swift */,
  				EEABECFD00017A6E10B1F4A3 /* HumanQuestionView.swift */,
  				A1B2C3D4E5F60718293A4B5D /* ApprovalRequestView.swift */,
-@@ -544,7 +547,7 @@
+@@ -544,7 +551,7 @@
  		D7854C843240E809A949A26E /* Products */ = {
  			isa = PBXGroup;
  			children = (
@@ -460,7 +464,7 @@ index 86203c5..57a6340 100644
  				F1A000000000000000000016 /* AgentLiveActivityWidget.appex */,
  				B64F29E9B8346B9A678CA487 /* DeepSeekHarnessMobileTests.xctest */,
  				F2B000000000000000000003 /* DeepSeekHarnessMobileUITests.xctest */,
-@@ -601,7 +604,6 @@
+@@ -601,7 +608,6 @@
  			buildConfigurationList = 62C8D12628E44A75D40278DD /* Build configuration list for PBXNativeTarget "DeepSeekHarnessMobile" */;
  			buildPhases = (
  				A9FC00000000000000000003 /* Build KMP Framework */,
@@ -468,7 +472,7 @@ index 86203c5..57a6340 100644
  				83446887BD782B48B6E0170F /* Sources */,
  				2730CFAAB3AB8815D8F74EB4 /* Frameworks */,
  				29B92305AFBD472635128223 /* Resources */,
-@@ -610,7 +612,6 @@
+@@ -610,7 +616,6 @@
  			buildRules = (
  			);
  			dependencies = (
@@ -476,7 +480,7 @@ index 86203c5..57a6340 100644
  				F1A000000000000000000042 /* PBXTargetDependency */,
  				EE965DA0277E404A9A49499F,
  				D5D6A6CC1E4C4BACAA11F7BE,
-@@ -621,8 +622,8 @@
+@@ -621,8 +626,8 @@
  				CF228000000000000000004 /* SwiftMath */,
  				C7A710000000000000000003 /* ChatLayout */,
  			);
@@ -487,7 +491,7 @@ index 86203c5..57a6340 100644
  			productType = "com.apple.product-type.application";
  		};
  		7515E0402B76392350DE0E00 /* DeepSeekHarnessMobileTests */ = {
-@@ -715,7 +716,6 @@
+@@ -715,7 +720,6 @@
  			projectDirPath = "";
  			projectRoot = "";
  			targets = (
@@ -495,7 +499,7 @@ index 86203c5..57a6340 100644
  				660802D096F9D6E6D171BFE5 /* DeepSeekHarnessMobile */,
  				F1A000000000000000000040 /* AgentLiveActivityWidget */,
  				7515E0402B76392350DE0E00 /* DeepSeekHarnessMobileTests */,
-@@ -731,6 +731,7 @@
+@@ -731,6 +735,7 @@
  			isa = PBXResourcesBuildPhase;
  			buildActionMask = 2147483647;
  			files = (
@@ -503,7 +507,7 @@ index 86203c5..57a6340 100644
  				AB0170000000000000000001 /* ../../AppRelease/release-info.json in Resources */,
  				AB0170000000000000000002 /* ../../AppRelease/release-notes.md in Resources */,
  				A1A0C0000000000000000001 /* LaunchScreen.storyboard in Resources */,
-@@ -780,47 +781,9 @@
+@@ -780,47 +785,9 @@
  			);
  			runOnlyForDeploymentPostprocessing = 0;
  			shellPath = /bin/sh;
@@ -552,7 +556,7 @@ index 86203c5..57a6340 100644
  
  /* End PBXShellScriptBuildPhase section */
  
-@@ -829,6 +792,9 @@
+@@ -829,6 +796,9 @@
  			isa = PBXSourcesBuildPhase;
  			buildActionMask = 2147483647;
  			files = (
@@ -562,7 +566,7 @@ index 86203c5..57a6340 100644
  				CA7400000000000000000003 /* WorkspaceSessionListTests.swift in Sources */,
  				39FD319C875F4B4A6893D676 /* GatewayProtocolTests.swift in Sources */,
  				A0C1234567890ABCDE0000003 /* WorkspaceChangesViewTests.swift in Sources */,
-@@ -855,6 +821,9 @@
+@@ -855,6 +825,9 @@
  			isa = PBXSourcesBuildPhase;
  			buildActionMask = 2147483647;
  			files = (
@@ -572,7 +576,16 @@ index 86203c5..57a6340 100644
  				BA1261E01FBB7F30C9AAE9D1 /* VoiceRipplePanel.swift in Sources */,
  				0DC425D67C678AF679BFF15A /* VoiceInputAdapter.swift in Sources */,
  				AC1200000000000000000001 /* VoiceAudioExceptionGuard.m in Sources */,
-@@ -956,7 +925,6 @@
+@@ -947,6 +920,8 @@
+ 			buildActionMask = 2147483647;
+ 			files = (
+ 				F2B000000000000000000001 /* WorkspaceDrawerUITests.swift in Sources */,
++				D44400000000000000000001 /* P4LocalIntegrationUITests.swift in Sources */,
++				D44400000000000000000003 /* P4RedactedInput.m in Sources */,
+ 				CF204000000000000000001 /* RealSessionScrollPerformanceTests.swift in Sources */,
+ 			);
+ 			runOnlyForDeploymentPostprocessing = 0;
+@@ -956,7 +931,6 @@
  /* End PBXSourcesBuildPhase section */
  
  /* Begin PBXTargetDependency section */
@@ -580,7 +593,7 @@ index 86203c5..57a6340 100644
  		DD2CB1177812E5F54629AA43 /* PBXTargetDependency */ = {
  			isa = PBXTargetDependency;
  			name = DeepSeekHarnessMobile;
-@@ -973,8 +941,6 @@
+@@ -973,8 +947,6 @@
  /* End PBXTargetDependency section */
  
  /* Begin XCBuildConfiguration section */
@@ -589,7 +602,7 @@ index 86203c5..57a6340 100644
  		0DD215C4F718C79148B6B0EE /* Debug */ = {
  			isa = XCBuildConfiguration;
  			baseConfigurationReference = F2A000000000000000000001 /* config/Debug.xcconfig */;
-@@ -986,11 +952,11 @@
+@@ -986,11 +958,11 @@
  				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*][arch=arm64]" = "$(SRCROOT)/shared/build/bin/iosSimulatorArm64/debugFramework";
  				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*][arch=x86_64]" = "$(SRCROOT)/shared/build/bin/iosX64/debugFramework";
  				GENERATE_INFOPLIST_FILE = YES;
@@ -604,7 +617,7 @@ index 86203c5..57a6340 100644
  			};
  			name = Debug;
  		};
-@@ -1011,16 +977,16 @@
+@@ -1011,16 +983,16 @@
  				INFOPLIST_FILE = DeepSeekHarnessMobile/Resources/Info.plist;
  				SWIFT_OBJC_BRIDGING_HEADER = "DeepSeekHarnessMobile/Resources/DeepSeekHarnessMobile-Bridging-Header.h";
  				CODE_SIGN_ENTITLEMENTS = DeepSeekHarnessMobile/Resources/Sharing.entitlements;
@@ -624,7 +637,7 @@ index 86203c5..57a6340 100644
  				PROVISIONING_PROFILE_SPECIFIER = "";
  				SDKROOT = iphoneos;
  				SWIFT_VERSION = 5.10;
-@@ -1039,11 +1005,11 @@
+@@ -1039,11 +1011,11 @@
  				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*][arch=arm64]" = "$(SRCROOT)/shared/build/bin/iosSimulatorArm64/releaseFramework";
  				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*][arch=x86_64]" = "$(SRCROOT)/shared/build/bin/iosX64/releaseFramework";
  				GENERATE_INFOPLIST_FILE = YES;
@@ -639,7 +652,7 @@ index 86203c5..57a6340 100644
  				VALIDATE_PRODUCT = YES;
  			};
  			name = Release;
-@@ -1170,8 +1136,8 @@
+@@ -1170,8 +1142,8 @@
  				APPLICATION_EXTENSION_API_ONLY = YES;
  				CLANG_ENABLE_OBJC_WEAK = NO;
  				CODE_SIGN_STYLE = Automatic;
@@ -650,7 +663,7 @@ index 86203c5..57a6340 100644
  				GENERATE_INFOPLIST_FILE = NO;
  				INFOPLIST_FILE = AgentLiveActivityWidget/Info.plist;
  				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-@@ -1181,8 +1147,8 @@
+@@ -1181,8 +1153,8 @@
  					"@executable_path/Frameworks",
  					"@executable_path/../../Frameworks",
  				);
@@ -661,7 +674,7 @@ index 86203c5..57a6340 100644
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				SDKROOT = iphoneos;
  				SKIP_INSTALL = YES;
-@@ -1199,8 +1165,8 @@
+@@ -1199,8 +1171,8 @@
  				APPLICATION_EXTENSION_API_ONLY = YES;
  				CLANG_ENABLE_OBJC_WEAK = NO;
  				CODE_SIGN_STYLE = Automatic;
@@ -672,7 +685,7 @@ index 86203c5..57a6340 100644
  				GENERATE_INFOPLIST_FILE = NO;
  				INFOPLIST_FILE = AgentLiveActivityWidget/Info.plist;
  				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-@@ -1210,9 +1176,9 @@
+@@ -1210,9 +1182,9 @@
  					"@executable_path/Frameworks",
  					"@executable_path/../../Frameworks",
  				);
@@ -685,25 +698,27 @@ index 86203c5..57a6340 100644
  				PRODUCT_NAME = "$(TARGET_NAME)";
  				SDKROOT = iphoneos;
  				SKIP_INSTALL = YES;
-@@ -1230,7 +1196,7 @@
+@@ -1230,7 +1202,8 @@
  				DEVELOPMENT_TEAM = "$(LOCAL_DEVELOPMENT_TEAM)";
  				GENERATE_INFOPLIST_FILE = YES;
  				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 -				PRODUCT_BUNDLE_IDENTIFIER = "$(LOCAL_BUNDLE_IDENTIFIER).uitests";
++				SWIFT_OBJC_BRIDGING_HEADER = DeepSeekHarnessMobileUITests/P4RedactedInput.h;
 +				PRODUCT_BUNDLE_IDENTIFIER = "net.deepclub.remote.uitests";
  				SDKROOT = iphoneos;
  				SWIFT_VERSION = 5.10;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -1246,7 +1212,7 @@
+@@ -1246,7 +1219,8 @@
  				DEVELOPMENT_TEAM = "$(LOCAL_DEVELOPMENT_TEAM)";
  				GENERATE_INFOPLIST_FILE = YES;
  				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 -				PRODUCT_BUNDLE_IDENTIFIER = "$(LOCAL_BUNDLE_IDENTIFIER).uitests";
++				SWIFT_OBJC_BRIDGING_HEADER = DeepSeekHarnessMobileUITests/P4RedactedInput.h;
 +				PRODUCT_BUNDLE_IDENTIFIER = "net.deepclub.remote.uitests";
  				SDKROOT = iphoneos;
  				SWIFT_VERSION = 5.10;
  				TARGETED_DEVICE_FAMILY = "1,2";
-@@ -1264,7 +1230,7 @@
+@@ -1264,7 +1238,7 @@
  				CODE_SIGN_IDENTITY = "Apple Development";
  				CODE_SIGN_STYLE = Automatic;
  				DEPLOYMENT_POSTPROCESSING = YES;
@@ -712,7 +727,7 @@ index 86203c5..57a6340 100644
  				"FRAMEWORK_SEARCH_PATHS[sdk=iphoneos*]" = "$(SRCROOT)/shared/build/bin/iosArm64/releaseFramework";
  				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*][arch=arm64]" = "$(SRCROOT)/shared/build/bin/iosSimulatorArm64/releaseFramework";
  				"FRAMEWORK_SEARCH_PATHS[sdk=iphonesimulator*][arch=x86_64]" = "$(SRCROOT)/shared/build/bin/iosX64/releaseFramework";
-@@ -1272,18 +1238,18 @@
+@@ -1272,18 +1246,18 @@
  				INFOPLIST_FILE = DeepSeekHarnessMobile/Resources/Info.plist;
  				SWIFT_OBJC_BRIDGING_HEADER = "DeepSeekHarnessMobile/Resources/DeepSeekHarnessMobile-Bridging-Header.h";
  				CODE_SIGN_ENTITLEMENTS = DeepSeekHarnessMobile/Resources/Sharing.entitlements;
@@ -736,7 +751,7 @@ index 86203c5..57a6340 100644
  				PROVISIONING_PROFILE_SPECIFIER = "";
  				SDKROOT = iphoneos;
  				STRIP_INSTALLED_PRODUCT = YES;
-@@ -1296,50 +1262,49 @@
+@@ -1296,50 +1270,49 @@
  		455E38E6A6944628B8043C3D = {isa = XCBuildConfiguration; baseConfigurationReference = F2A000000000000000000001; buildSettings = {
   APPLICATION_EXTENSION_API_ONLY = YES; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = "$(LOCAL_DEVELOPMENT_TEAM)";
   CODE_SIGN_ENTITLEMENTS = ShareExtension/ShareExtension.entitlements;
@@ -920,7 +935,7 @@ index 59d1731..f38bd09 100644
              ReferencedContainer = "container:DeepSeekHarnessMobile.xcodeproj">
           </BuildableReference>
 diff --git a/DeepSeekHarnessMobile/App/DeepSeekHarnessMobileApp.swift b/DeepSeekHarnessMobile/App/DeepSeekHarnessMobileApp.swift
-index bdc51f1..dabf06e 100644
+index bdc51f1..b1f1e7f 100644
 --- a/DeepSeekHarnessMobile/App/DeepSeekHarnessMobileApp.swift
 +++ b/DeepSeekHarnessMobile/App/DeepSeekHarnessMobileApp.swift
 @@ -37,7 +37,7 @@ private final class AgentNotificationAppDelegate: NSObject, UIApplicationDelegat
@@ -955,12 +970,15 @@ index bdc51f1..dabf06e 100644
                  else { ProgressView() }
                  #endif
              }
-@@ -72,6 +75,14 @@ struct DeepSeekHarnessMobileApp: App {
+@@ -72,6 +75,17 @@ struct DeepSeekHarnessMobileApp: App {
                  .environmentObject(hosts.activeStore)
                  .environmentObject(hosts)
                  .modifier(AppFontScope())
 +                .tint(DSHColor.ocean)
 +                .onOpenURL { url in
++                    #if DEEPCLUB_LOCAL_INTEGRATION
++                    LocalAppLog.shared.write("P4_ROUTE_APP pair=\(url.scheme == "deepclub" && url.host == "pair") authenticated=\(account.session != nil) ready=\(hosts.isReady)")
++                    #endif
 +                    hosts.receivePairingURL(url)
 +                }
 +                .onContinueUserActivity(NSUserActivityTypeBrowsingWeb) { activity in
@@ -1963,7 +1981,7 @@ index d78cfa9..d35596a 100644
  /// The gateway's v0.1.6 live-event broadcaster currently omits `kind: "event"`
  /// even though query/control responses include `kind`. Normalize that wire quirk
 diff --git a/DeepSeekHarnessMobile/Core/GatewayProfile.swift b/DeepSeekHarnessMobile/Core/GatewayProfile.swift
-index eb05148..2cb8d51 100644
+index eb05148..b44daac 100644
 --- a/DeepSeekHarnessMobile/Core/GatewayProfile.swift
 +++ b/DeepSeekHarnessMobile/Core/GatewayProfile.swift
 @@ -3,6 +3,7 @@ import Foundation
@@ -1974,27 +1992,27 @@ index eb05148..2cb8d51 100644
      var gatewayName: String
      var alias: String?
      var endpoints: [String]
-@@ -44,6 +45,10 @@ enum GatewayIdentity {
+@@ -44,6 +45,11 @@ enum GatewayIdentity {
          parts.scheme = scheme
          parts.host = host
          if parts.path.isEmpty { parts.path = "/ws/mobile" }
-+        guard parts.path == "/ws/mobile" || (host == "deepclub.net" && scheme == "wss" &&
-+              parts.path.range(of: "^/ws/mobile/[0-9a-fA-F-]{36}$", options: .regularExpression) != nil) else {
++        guard parts.path == "/ws/mobile" || (parts.url.map {
++            DeepClubProtocol.isRelay($0, gatewayID: String(parts.path.split(separator: "/").last ?? ""))
++        } == true && parts.path.range(of: "^/ws/mobile/[0-9a-fA-F-]{36}$", options: .regularExpression) != nil) else {
 +            throw GatewayProfileError.address
 +        }
          guard let url = parts.url else { throw GatewayProfileError.address }
          return url.absoluteString
      }
-@@ -71,7 +76,14 @@ enum GatewayIdentity {
+@@ -71,7 +77,13 @@ enum GatewayIdentity {
              let value = try endpoint(raw)
              if !values.contains(value) { values.append(value) }
          }
 -        guard values.count <= 16 else { throw GatewayProfileError.address }
 +        guard values.count <= 16, values.allSatisfy({ value in
 +            guard let url = URL(string: value) else { return false }
-+            if url.host == "deepclub.net" {
-+                return DeepClubProtocol.isRelay(url, gatewayID: payload.gatewayId ?? "")
-+            }
++            if DeepClubProtocol.isRelay(url, gatewayID: payload.gatewayId ?? "") { return true }
++            if url.host == "deepclub.net" { return false }
 +            // QR candidates may only name a local host or our exact relay.
 +            return isLocal(url.host ?? "") && url.path == "/ws/mobile"
 +        }) else { throw GatewayProfileError.address }
@@ -4231,7 +4249,7 @@ index 18c6d06..01adfe1 100644
  </dict>
  </plist>
 diff --git a/DeepSeekHarnessMobile/Views/RootView.swift b/DeepSeekHarnessMobile/Views/RootView.swift
-index 4ec034a..5f5b420 100644
+index 4ec034a..11d2c7d 100644
 --- a/DeepSeekHarnessMobile/Views/RootView.swift
 +++ b/DeepSeekHarnessMobile/Views/RootView.swift
 @@ -13,7 +13,7 @@ struct RootView: View {
@@ -4243,6 +4261,16 @@ index 4ec034a..5f5b420 100644
                  Button(String(localized: "好"), role: .cancel) { store.lastError = nil }
              } message: { Text(store.lastError ?? "") }
              .task {
+@@ -143,6 +143,9 @@ private struct RootNavigationHost: View, Equatable {
+             if path.isEmpty { store.resumeWorkspace() }
+         }
+         .onOpenURL { url in
++            #if DEEPCLUB_LOCAL_INTEGRATION
++            LocalAppLog.shared.write("P4_ROUTE_ROOT pair=\(url.scheme == "deepclub" && url.host == "pair")")
++            #endif
+             if url.scheme == "dshmobile", url.host == "share" {
+                 let rawID = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems?
+                     .first(where: { $0.name == "id" })?.value
 diff --git a/DeepSeekHarnessMobile/Views/SettingsView.swift b/DeepSeekHarnessMobile/Views/SettingsView.swift
 index 5005cc8..46bf87c 100644
 --- a/DeepSeekHarnessMobile/Views/SettingsView.swift

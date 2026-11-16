@@ -7,3 +7,8 @@ DeepClub is not an official DeepSeek product.
 DeepClub account-service lineage: protectedNewAPI / QuantumNous (new-api).
 That server implementation is not copied into this iOS-only source export;
 its attribution and licensing remain with the separately maintained backend.
+
+The test-only redacted input helper adapts public WebDriverAgent event-synthesis
+API usage (Copyright 2015-present Facebook, Inc., BSD 3-Clause). Its notice and
+terms are retained in DeepSeekHarnessMobileUITests/P4RedactedInput.m in the
+source overlay. This helper is linked only into the UI test runner, not the App.

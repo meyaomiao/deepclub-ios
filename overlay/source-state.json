@@ -61,7 +61,7 @@
   },
   "DeepSeekHarnessMobile.xcodeproj/project.pbxproj": {
     "mode": "644",
-    "sha256": "5194bfb4558017971b8ce11c3c8b4694cb07326a012dde28bdc1e382c401cfd2"
+    "sha256": "ba9d735dd1c0bf81789b2c24ba276e0fb1fc5d147426bdb63cae6cef0bafa836"
   },
   "DeepSeekHarnessMobile.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved": {
     "mode": "644",
@@ -81,7 +81,7 @@
   },
   "DeepSeekHarnessMobile/App/DeepSeekHarnessMobileApp.swift": {
     "mode": "644",
-    "sha256": "7b8c18adcc024eb8e9a36b75c2f17e6c3de1e2de0c1de753ce51e8fd20d6314b"
+    "sha256": "471a458de96584ed1aab66dd28b75345c5cdf02c7018e887b18dfd52f16a0a1a"
   },
   "DeepSeekHarnessMobile/Components/AppleMapsAppCard.swift": {
     "mode": "644",
@@ -173,11 +173,11 @@
   },
   "DeepSeekHarnessMobile/Core/DeepClubAccount.swift": {
     "mode": "644",
-    "sha256": "96eae9297e2bfbe2b3e5d142c41c0a6370ae1eee423cb93297e4f33422c94236"
+    "sha256": "2c1e0684d99c914f8ff409c0c9988db49a072eaa0023595993ae2021d22227ce"
   },
   "DeepSeekHarnessMobile/Core/DeepClubProtocol.swift": {
     "mode": "644",
-    "sha256": "8aef1322b5a9e09d35b4eec83158c933e7b00a42fb1fdaddae4d2a886d95663b"
+    "sha256": "e6d4296bd97b70f5606bec16824915b703a6f0e1a2bd31f2ac1fd9c9104438f3"
   },
   "DeepSeekHarnessMobile/Core/FileUploadController.swift": {
     "mode": "644",
@@ -201,7 +201,7 @@
   },
   "DeepSeekHarnessMobile/Core/GatewayProfile.swift": {
     "mode": "644",
-    "sha256": "9c69f6aed807c573aff54cef1aca9548404055c29bdcab2c5705863d4e11e59d"
+    "sha256": "0b79dfda4c3506c7967e746f79fa723db0f65b47c6e66f8d65a9d3ecaf2dc679"
   },
   "DeepSeekHarnessMobile/Core/HistoryPresentationAdmission.swift": {
     "mode": "644",
@@ -2581,7 +2581,7 @@
   },
   "DeepSeekHarnessMobile/Views/RootView.swift": {
     "mode": "644",
-    "sha256": "36ba590951c60a40bc65ebe8fc69526ee005197059145ce778e745f0c50092f8"
+    "sha256": "f694ad55bdd39b34ddc33117d5ecbc5773f1c7856c7d960e42da4b11b41042af"
   },
   "DeepSeekHarnessMobile/Views/SettingsView.swift": {
     "mode": "644",
@@ -2629,7 +2629,7 @@
   },
   "DeepSeekHarnessMobileTests/DeepClubProtocolTests.swift": {
     "mode": "644",
-    "sha256": "319d81c364bc090ac51510d9b3246c6a61aa569aa287a1e0c429bcc25aa9f3d4"
+    "sha256": "b7f923f59335c06ff12696ecf8bd2452d572c4cf7602bea7b2b3f8dd0d8fede6"
   },
   "DeepSeekHarnessMobileTests/FileIconAssetTests.swift": {
     "mode": "644",
@@ -2690,6 +2690,18 @@
   "DeepSeekHarnessMobileTests/WorkspaceSessionListTests.swift": {
     "mode": "644",
     "sha256": "1c1b2373d52bd18834e8f934343fde27037e37c368b7c028a33f45b70930a86e"
+  },
+  "DeepSeekHarnessMobileUITests/P4LocalIntegrationUITests.swift": {
+    "mode": "644",
+    "sha256": "1627aea50c46676c20211cf5dd0e511155504858acf7160c2069d749fa90f104"
+  },
+  "DeepSeekHarnessMobileUITests/P4RedactedInput.h": {
+    "mode": "644",
+    "sha256": "c3a7876e0af39c73b8409e6d1aa97e600a0fc3e7f421f224334baa34a4de8025"
+  },
+  "DeepSeekHarnessMobileUITests/P4RedactedInput.m": {
+    "mode": "644",
+    "sha256": "5b7873e9cb4b02661d232303ffd7e0cc466c01cb7426aa3d85c85cfec3345063"
   },
   "DeepSeekHarnessMobileUITests/RealSessionScrollPerformanceTests.swift": {
     "mode": "644",

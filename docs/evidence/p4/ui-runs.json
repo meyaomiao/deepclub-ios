@@ -1,0 +1,61 @@
+{
+  "runs": [
+    {
+      "receipt": "ui-test01RealBrowserLogin-20261115T211403.json",
+      "method": "test01RealBrowserLogin",
+      "exit_code": 0,
+      "seconds": 95.85,
+      "log_sha256": "c1a15a5d277619cc0f9004316130d1459e6471e6e6c4b1f16e57607b34e76bd1",
+      "private_values_in_environment": false
+    },
+    {
+      "receipt": "ui-test03PairActualHost-20261115T214109.json",
+      "method": "test03PairActualHost",
+      "exit_code": 0,
+      "seconds": 18.8,
+      "log_sha256": "7e6b3748a9014e035f301fece610fdfaa821599348b5fbeca65a667045d4fea2",
+      "private_values_in_environment": false
+    },
+    {
+      "receipt": "ui-test04RestartRestoresAccountAndHost-20261115T214452.json",
+      "method": "test04RestartRestoresAccountAndHost",
+      "exit_code": 0,
+      "seconds": 56.08,
+      "log_sha256": "645538cda99408ea7c68c30e6254cb8bbb0bbf587598bed93acc626d52a905a1",
+      "private_values_in_environment": false
+    },
+    {
+      "receipt": "ui-test05NativeScenario-20261115T215248.json",
+      "method": "test05NativeScenario",
+      "exit_code": 0,
+      "seconds": 70.66,
+      "log_sha256": "166da9f1f192b10276f877e3c307b90ec20be5e3cf62c89107f415933e47c2ac",
+      "private_values_in_environment": false
+    },
+    {
+      "receipt": "ui-test05NativeScenario-20261115T220006.json",
+      "method": "test05NativeScenario",
+      "exit_code": 65,
+      "seconds": 77.8,
+      "log_sha256": "e8cbe7921d91b80aad752d82953a3610d6ebd1044a6b2c88359e9cbb559022ab",
+      "private_values_in_environment": false
+    },
+    {
+      "receipt": "ui-test05NativeScenario-20261115T222832.json",
+      "method": "test05NativeScenario",
+      "exit_code": 65,
+      "seconds": 96.72,
+      "log_sha256": "f4bf4f041103c01534efba6f27723b7861f8a037bbb2e238d2e02e2574a1b090",
+      "private_values_in_environment": false
+    },
+    {
+      "receipt": "ui-test05NativeScenario-20261115T231151.json",
+      "method": "test05NativeScenario",
+      "exit_code": 65,
+      "seconds": 394.11,
+      "log_sha256": "f2bd592b67c1a1ff78d60fd82099735a2ccdc06beba1decfa0357dc36d529ac1",
+      "private_values_in_environment": false
+    }
+  ],
+  "note": "Failed long attempts are not Stop passes; final corrected-fixture attempt never reached TestCase. Raw logs/AX/private files are not published."
+}

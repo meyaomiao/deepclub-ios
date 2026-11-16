@@ -23,6 +23,40 @@ final class DeepClubProtocolTests: XCTestCase {
         return DeepClubProtocol.base64URL(try JSONSerialization.data(withJSONObject: value, options: [.sortedKeys]))
     }
 
+    func testAccountOriginAndRelayAreExact() throws {
+        let origin = DeepClubProtocol.origin
+        XCTAssertTrue(DeepClubProtocol.isAccountOrigin(origin.appendingPathComponent("api/client/bootstrap")))
+        for raw in ["https://127.0.0.1:18340", "http://localhost:18340", "http://127.0.0.1:18341", "https://deepclub.net:444", "https://user@deepclub.net"] {
+            XCTAssertFalse(DeepClubProtocol.isAccountOrigin(URL(string: raw)))
+        }
+        #if DEEPCLUB_LOCAL_INTEGRATION
+        let relay = URL(string: "ws://127.0.0.1:18340/ws/mobile/\(gatewayID)")!
+        XCTAssertEqual(origin.absoluteString, "http://127.0.0.1:18340")
+        for port in ["", ":80", ":443", ":0", ":18341"] {
+            XCTAssertFalse(DeepClubProtocol.isAccountOrigin(URL(string: "http://127.0.0.1\(port)")))
+            XCTAssertFalse(DeepClubProtocol.isRelay(URL(string: "ws://127.0.0.1\(port)/ws/mobile/\(gatewayID)")!, gatewayID: gatewayID))
+        }
+        #else
+        let relay = URL(string: "wss://deepclub.net/ws/mobile/\(gatewayID)")!
+        XCTAssertEqual(origin.absoluteString, "https://deepclub.net")
+        XCTAssertTrue(DeepClubProtocol.isAccountOrigin(URL(string: "https://deepclub.net:443")))
+        XCTAssertTrue(DeepClubProtocol.isRelay(URL(string: "wss://deepclub.net:443/ws/mobile/\(gatewayID)")!, gatewayID: gatewayID))
+        for port in [0, 80, 8443] {
+            XCTAssertFalse(DeepClubProtocol.isAccountOrigin(URL(string: "https://deepclub.net:\(port)")))
+            XCTAssertFalse(DeepClubProtocol.isRelay(URL(string: "wss://deepclub.net:\(port)/ws/mobile/\(gatewayID)")!, gatewayID: gatewayID))
+        }
+        #endif
+        XCTAssertTrue(DeepClubProtocol.isRelay(relay, gatewayID: gatewayID))
+        for suffix in ["?extra=1", "#fragment", "/extra"] {
+            XCTAssertFalse(DeepClubProtocol.isRelay(URL(string: relay.absoluteString + suffix)!, gatewayID: gatewayID))
+        }
+        for raw in ["ws://127.0.0.1:18342/ws/mobile", "ws://localhost:18340/ws/mobile/\(gatewayID)", "ws://127.0.0.1:18341/ws/mobile/\(gatewayID)"] {
+            let headers = try DeepClubProtocol.connectionHeaders(endpoint: URL(string: raw)!, gatewayID: gatewayID,
+                hostKey: hostKey, assertion: code, phoneSession: phoneSession, pairCode: code, deviceToken: nil)
+            XCTAssertNil(headers["X-DeepClub-Session"])
+        }
+    }
+
     func testS256AndAuthorizationUseRemoteOnlyContract() throws {
         let verifier = "dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk"
         XCTAssertEqual(DeepClubProtocol.challenge(verifier), "E9Melhoa2OwvFrEMTJguCHaoeK1t8URWbuGJSstw-cM")

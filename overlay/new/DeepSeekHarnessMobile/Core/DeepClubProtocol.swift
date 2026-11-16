@@ -3,7 +3,31 @@ import CryptoKit
 
 // DeepClub remote-only wire contract. No model credentials belong in this module.
 enum DeepClubProtocol {
+    // Opt-in integration builds have one fixed origin; no runtime/user override.
+    #if DEEPCLUB_LOCAL_INTEGRATION
+    #if !DEBUG || !targetEnvironment(simulator)
+    #error("DEEPCLUB_LOCAL_INTEGRATION requires a Debug simulator build")
+    #endif
+    static let origin = URL(string: "http://127.0.0.1:18340")!
+    #else
     static let origin = URL(string: "https://deepclub.net")!
+    #endif
+
+    // Explicit default TLS ports name the same origin. The integration origin
+    // always has its non-default port, so omission or any other port stays invalid.
+    private static func effectivePort(_ url: URL) -> Int? {
+        if let port = url.port { return port }
+        switch url.scheme {
+        case "https", "wss": return 443
+        case "http", "ws": return 80
+        default: return nil
+        }
+    }
+    static func isAccountOrigin(_ url: URL?) -> Bool {
+        guard let url else { return false }
+        return url.scheme == origin.scheme && url.host == origin.host && effectivePort(url) == effectivePort(origin) &&
+            url.user == nil && url.password == nil
+    }
     static let clientID = "deepclub-ios-remote-v1"
     static let clientType = "ios_remote"
     static let callback = "deepclub://auth/callback"
@@ -56,7 +80,14 @@ enum DeepClubProtocol {
         return code
     }
     static func isRelay(_ url: URL, gatewayID: String) -> Bool {
-        url.scheme == "wss" && url.host == "deepclub.net" && url.port == nil &&
+        let expectedScheme: String
+        #if DEEPCLUB_LOCAL_INTEGRATION
+        expectedScheme = "ws"
+        #else
+        expectedScheme = "wss"
+        #endif
+        return GatewayIdentity.isValid(gatewayID) &&
+            url.scheme == expectedScheme && url.host == origin.host && effectivePort(url) == effectivePort(origin) &&
             url.path == "/ws/mobile/\(gatewayID)" && url.user == nil && url.password == nil &&
             url.query == nil && url.fragment == nil
     }

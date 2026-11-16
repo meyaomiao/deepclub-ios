@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-11-16T06:14:37.049Z",
+  "sessions": [
+    {
+      "sessionId": "session-09d80b25-ecdf-464d-8b97-5f2fc2353cf9",
+      "createdAt": 1794808391790,
+      "hasBasicPrompt": true,
+      "assistantMessages": 1,
+      "hasLongPrompt": false,
+      "toolResults": 0
+    },
+    {
+      "sessionId": "session-401a919e-f6f4-4713-9c23-b7c3a48e50e9",
+      "createdAt": 1794808051924,
+      "hasBasicPrompt": false,
+      "assistantMessages": 0,
+      "hasLongPrompt": false,
+      "toolResults": 0
+    }
+  ]
+}

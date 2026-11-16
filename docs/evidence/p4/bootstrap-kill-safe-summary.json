@@ -1,0 +1,20 @@
+{
+  "xcodebuild_pid": 64928,
+  "xcodebuild_exit_code": 65,
+  "uitest_runner_pid": 65248,
+  "test_case_started": false,
+  "os_reason": "OS_REASON_RUNNINGBOARD",
+  "reason_namespace": 15,
+  "reason_code": "0x2182BAD2",
+  "explanation": "Timed out invalidating Shared Background Assertion; no memory/OOM conclusion",
+  "events": [
+    {
+      "timestamp": "2026-11-15 23:15:44.476542-0800",
+      "message": "[app<net.deepclub.remote.uitests.xctrunner((null))>:65248] Terminating with context: <RBSTerminateContext| code:0x2182BAD2 explanation:Timed-out waiting for process [app<net.deepclub.remote.uitests.xctrunner((null))>:65248] to invalidate assertion with identifier 33879-65248-3642 and explanation 'Shared Background Assertion 0 for net.deepclub.remote.uitests.xctrunner'. Direct this report to owners of that process reportType:None maxTerminationResistance:Interactive>"
+    },
+    {
+      "timestamp": "2026-11-15 23:15:47.008944-0800",
+      "message": "exited with exit reason (namespace: 15 code: 0x2182bad2) - OS_REASON_RUNNINGBOARD | <RBSTerminateContext| code:0x2182BAD2 explanation:Timed-out waiting for process [app<net.deepclub.remote.uitests.xctrunner((null))>:65248] to invalidate assertion with identifier 33879-65248-3642 and explanation 'Shared Background Assertion 0 for net.deepclub.remote.uitests.xctrunner'. Direct this report to owners of that process reportType:None maxTerminationResistance:Interactive>, ran for 89365ms"
+    }
+  ]
+}

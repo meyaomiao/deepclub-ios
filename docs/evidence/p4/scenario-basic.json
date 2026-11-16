@@ -1,0 +1,29 @@
+{
+  "steps": [
+    {
+      "op": "tapButton",
+      "target": "新建会话"
+    },
+    {
+      "op": "typeComposer",
+      "text": "p4-basic"
+    },
+    {
+      "op": "tapButton",
+      "target": "composer-action"
+    },
+    {
+      "op": "waitText",
+      "target": "P4 local fixture streamed",
+      "timeout": 30
+    },
+    {
+      "op": "capture",
+      "target": "ios-basic-completed"
+    },
+    {
+      "op": "dump",
+      "target": "ios-basic-tree"
+    }
+  ]
+}

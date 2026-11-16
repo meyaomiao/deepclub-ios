@@ -261,7 +261,7 @@ final class DeepClubAccount: NSObject, ObservableObject, ASWebAuthenticationPres
         }
         let (data, response) = try await environment.transport.data(for: request)
         if let captured, captured != generation { throw CancellationError() }
-        guard let http = response as? HTTPURLResponse, response.url?.host == "deepclub.net",
+        guard let http = response as? HTTPURLResponse, DeepClubProtocol.isAccountOrigin(response.url),
               data.count <= 1024 * 1024 else { throw DeepClubError.unavailable }
         if http.statusCode == 401 {
             if token != nil, captured == generation {
