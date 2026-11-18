@@ -1,0 +1,88 @@
+{
+  "recorded_at": "2026-11-18T10:40:00Z",
+  "refs": ["meyaomiao/deepclub-ios#4", "meyaomiao/deepclub#444"],
+  "authorization": "User explicitly authorized real iOS signing in Apple Developer team 3R5RTZSF89; no upload, no App Store Connect / TestFlight submission.",
+  "source": {
+    "adaptation_head": "e2c31cd7cc9dea83858f731df99bfaedf08f65ba",
+    "upstream_commit": "f86f005e3491866a2a7aa03f8894dd606a0dde8b",
+    "overlay_manifest_sha256": "4698f8d1d01ef483cc77b3fe41cab9c3724f70ed492ec569f6454882eb29b6eb",
+    "prepare": "scripts/prepare.py into new .work/signing-export-20261118T020342: 1118 verified files, exit 0",
+    "overlay_changes": "none; entitlements already present in overlay",
+    "local_team_setting": "ignored config/Local.xcconfig in the export only: LOCAL_DEVELOPMENT_TEAM = 3R5RTZSF89 (not captured, not committed)"
+  },
+  "entitlement_sources": {
+    "DeepClub.app": "DeepSeekHarnessMobile/Resources/Sharing.entitlements: application-groups $(DSH_SHARE_APP_GROUP)=group.net.deepclub.remote, associated-domains applinks:deepclub.net, healthkit (upstream HealthKit connector, NSHealthShareUsageDescription present)",
+    "ShareExtension.appex": "ShareExtension/ShareExtension.entitlements: application-groups group.net.deepclub.remote",
+    "ActionExtension.appex": "ShareExtension/ShareExtension.entitlements: application-groups group.net.deepclub.remote",
+    "AgentLiveActivityWidget.appex": "no entitlements file; widget source uses ActivityKit only, no shared container / suite defaults"
+  },
+  "builds": [
+    {
+      "step": "archive@a1",
+      "command": "xcodebuild -project DeepSeekHarnessMobile.xcodeproj -scheme DeepSeekHarnessMobile -configuration Release -onlyUsePackageVersionsFromResolvedFile -destination generic/platform=iOS -derivedDataPath <task>/DerivedData -clonedSourcePackagesDirPath <task>/SourcePackages -archivePath <task>/DeepClub-a1.xcarchive -jobs 2 -allowProvisioningUpdates archive",
+      "exit_code": 65,
+      "seconds": 390,
+      "result": "Provisioning succeeded (App IDs, capabilities, App Group and profiles created); KMP build phase failed because the task-only offline Gradle home lacked public iosArm64 klibs"
+    },
+    {
+      "step": "kmp-release-iosArm64",
+      "command": "./gradlew :shared:linkReleaseFrameworkIosArm64 --no-daemon --console=plain (new task Gradle home, online public Maven/Google, read-only shared dependency cache)",
+      "exit_code": 0,
+      "seconds": 442
+    },
+    {
+      "step": "archive@a2",
+      "command": "same as archive@a1 with -archivePath <task>/DeepClub-a2.xcarchive",
+      "exit_code": 0,
+      "seconds": 910,
+      "result": "** ARCHIVE SUCCEEDED **; codesign --verify --deep --strict OK"
+    }
+  ],
+  "archive": {
+    "CFBundleShortVersionString": "0.1.0",
+    "CFBundleVersion": "1",
+    "signing_identity": "Apple Development: joyjuel@icloud.com (3V6SBMF34B), certificate OU=3R5RTZSF89 (O=zhibang xiao), notAfter 2027-07-02",
+    "main_executable_sha256": "703ec399aa9ab0e3216631e060e6c17893e9ad01c40acc8709682e6706d45ca4",
+    "uploaded_or_exported": false
+  },
+  "codesign_entitlements": {
+    "DeepClub.app": {
+      "TeamIdentifier": "3R5RTZSF89",
+      "application-identifier": "3R5RTZSF89.net.deepclub.remote",
+      "com.apple.security.application-groups": ["group.net.deepclub.remote"],
+      "com.apple.developer.associated-domains": ["applinks:deepclub.net"],
+      "com.apple.developer.healthkit": true,
+      "get-task-allow": true
+    },
+    "ShareExtension.appex": {
+      "TeamIdentifier": "3R5RTZSF89",
+      "application-identifier": "3R5RTZSF89.net.deepclub.remote.ShareExtension",
+      "com.apple.security.application-groups": ["group.net.deepclub.remote"],
+      "get-task-allow": true
+    },
+    "ActionExtension.appex": {
+      "TeamIdentifier": "3R5RTZSF89",
+      "application-identifier": "3R5RTZSF89.net.deepclub.remote.ActionExtension",
+      "com.apple.security.application-groups": ["group.net.deepclub.remote"],
+      "get-task-allow": true
+    },
+    "AgentLiveActivityWidget.appex": {
+      "TeamIdentifier": "3R5RTZSF89",
+      "application-identifier": "3R5RTZSF89.net.deepclub.remote.AgentLiveActivityWidget",
+      "get-task-allow": true
+    }
+  },
+  "provisioning_profiles": [
+    {"target": "DeepClub.app", "name": "iOS Team Provisioning Profile: net.deepclub.remote", "uuid": "5f4b4fe6-d3c6-4ffa-9fa8-77e6a2b60bca", "created": "2026-11-18T10:08:42Z", "expires": "2027-11-18T10:08:42Z", "xcode_managed": true, "devices": 2, "new": true},
+    {"target": "ShareExtension.appex", "name": "iOS Team Provisioning Profile: net.deepclub.remote.ShareExtension", "uuid": "2d79c4a4-1a9a-4019-bc24-96edbbbbf894", "created": "2026-11-18T10:08:51Z", "expires": "2027-11-18T10:08:51Z", "xcode_managed": true, "devices": 2, "new": true},
+    {"target": "ActionExtension.appex", "name": "iOS Team Provisioning Profile: net.deepclub.remote.ActionExtension", "uuid": "1884c434-b895-4f1c-95df-17f1b33c362b", "created": "2026-11-18T10:08:47Z", "expires": "2027-11-18T10:08:47Z", "xcode_managed": true, "devices": 2, "new": true},
+    {"target": "AgentLiveActivityWidget.appex", "name": "iOS Team Provisioning Profile: *", "uuid": "199e5ecc-1abd-459e-b2d6-2b19c05f4007", "created": "2026-09-20T01:28:40Z", "expires": "2027-09-20T01:28:40Z", "xcode_managed": true, "devices": 2, "new": false, "note": "pre-existing team wildcard development profile; explicit widget App ID will be needed for App Store distribution signing"}
+  ],
+  "aasa_read_only_check": {
+    "https://deepclub.net/.well-known/apple-app-site-association": "HTTP 200 text/html (SPA index), not an AASA JSON",
+    "https://app-site-association.cdn-apple.com/a/v1/deepclub.net": "HTTP 404",
+    "conclusion": "Universal Links not deliverable until the website serves AASA with appID 3R5RTZSF89.net.deepclub.remote for /pair and /pair/"
+  },
+  "device_read_only": "devicectl: iPhone 17 (iPhone18,3) state unavailable; nothing installed",
+  "not_done": ["App Store distribution signing / export", "App Store Connect app record", "TestFlight upload", "real-device install and acceptance", "AASA deployment and Universal Link verification"]
+}

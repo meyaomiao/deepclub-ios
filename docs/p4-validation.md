@@ -63,10 +63,21 @@
 - 下一轮已 Send，但 fixture 选了最后一条 runtime-context user，主 Agent 实为 634ms / 5-record 普通短回复；约 59.94 秒的另一请求是 title 路径。没有用户 Stop，旧 cancelled+1 不计停止通过。main #509 修复 context 选择和 title gating，13 项 fixture contract 通过后维护 primary Host / model。
 - 修复后的实际重验没有进入 TestCase：xcodebuild PID 64928 返回 65；UI runner PID 65248 被 `OS_REASON_RUNNINGBOARD` namespace 15 / `0x2182BAD2` 终止，原因是等待失效 Shared Background Assertion 超时，进程运行 89,365ms。[精确安全摘要](evidence/p4/bootstrap-kill-safe-summary.json) 不推断 OOM。服务端确认新模型进程 requests / active 均为 0。主机同时存在高 system load / swap，另一端也遇系统 ANR，lead 因此暂停更多本机 UI 重试和 task-only 服务。
 
+## 真实 Apple Team 开发签名（2026-11-18）
+
+用户明确授权在付费团队 `3R5RTZSF89` 设置 iPhone 签名。overlay 已含所需授权，本次没有修改 overlay：主 App 的 `Sharing.entitlements` 含 `group.net.deepclub.remote`、`applinks:deepclub.net` 和上游 HealthKit 连接器授权；Share / Action 扩展含同一 App Group；Live Activity 小组件只用 ActivityKit，不读写共享容器，因此不加 App Group。Team 只写入新导出目录中被忽略的 `config/Local.xcconfig`，未提交。
+
+- `scripts/prepare.py` 从固定上游导出新目录，1,118 文件校验通过。首次 `xcodebuild … -configuration Release -destination generic/platform=iOS -allowProvisioningUpdates archive` 已完成 App ID / capability / App Group / profile 注册，但 KMP 阶段因任务离线 Gradle 缓存缺 iosArm64 公开 klib 失败（exit 65 / 390 秒）；在任务自有 Gradle home 联网补齐后 `:shared:linkReleaseFrameworkIosArm64` exit 0 / 442 秒，重跑 archive **ARCHIVE SUCCEEDED**（exit 0 / 910 秒），`codesign --verify --deep --strict` 通过。
+- `codesign -d --entitlements :-`：App 与三个扩展 TeamIdentifier 均为 `3R5RTZSF89`；App / Share / Action 的 `com.apple.security.application-groups` 为 `group.net.deepclub.remote`；App 的 `com.apple.developer.associated-domains` 为 `applinks:deepclub.net`。签名身份为团队 Apple Development 证书，`get-task-allow=true`，即开发签名 archive。
+- 新建 Xcode 管理 profile：App `5f4b4fe6-d3c6-4ffa-9fa8-77e6a2b60bca`、Share `2d79c4a4-1a9a-4019-bc24-96edbbbbf894`、Action `1884c434-b895-4f1c-95df-17f1b33c362b`，均至 2027-11-18；小组件使用既有团队通配开发 profile `199e5ecc-…`（至 2027-09-20）。详见 [签名证据](evidence/p4/ios-signing.json)，不含证书私钥或账户凭据。
+- 只读检查：`https://deepclub.net/.well-known/apple-app-site-association` 返回 SPA HTML，Apple CDN 返回 404，生产 AASA 尚未部署；配对 iPhone 17 仍为 `unavailable`，没有安装。
+
+未做：App Store 分发签名 / 导出、App Store Connect App 记录、TestFlight 上传、真机安装与验收、AASA 部署及 Universal Link 验证。
+
 ## 自动化检查与后续
 
 本仓当前没有本地 `.github/workflows`；[GitHub Actions 查询](evidence/p4/repository-workflows.json) 记录实际可用的 workflow 数量。没有把未运行的远端 CI、主仓契约测试或冻结 P2 的 20 项 DI / Keychain 单测转算为本轮 iOS UI 通过。Draft 的人工确认保持未勾选，不 Ready / merge，不使用 `Closes` 自动关闭执行单。
 
 恢复环境后应重新协调 shared-IP CT slot 与独占模型 / QR 窗口，先验证真正长流 `P4 stream …` 后再实际点 Stop，按新 request-mode ring 和持久 turn reason 交叉证明；随后工具读取、原生文件预览、iOS relay-first QR、冷 OS 新 QR、审批和单设备撤销分别取证。保留现有测试账户 / 配对状态继续，不能用重复登录或清桶掩盖问题。
 
-没有真机、跨公网、正式签名、AASA、App Store / TestFlight、生产部署或收费模型证据。保留 dsh-mobile / Whaleness、Chaofan Li MIT 与所有依赖许可及 protectedNewAPI / QuantumNous 来源署名。
+除上节真实 Team 开发签名 archive 外，没有真机、跨公网、分发签名、AASA、App Store / TestFlight、生产部署或收费模型证据。保留 dsh-mobile / Whaleness、Chaofan Li MIT 与所有依赖许可及 protectedNewAPI / QuantumNous 来源署名。
