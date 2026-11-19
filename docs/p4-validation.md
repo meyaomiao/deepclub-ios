@@ -1,5 +1,13 @@
 # iOS P4 实际本地联动：Draft 验证记录
 
+## 2026-11-19 · 真机与 TestFlight 团队内测
+
+用户授权先验收 iPhone 17，再上传供团队内测。已从手机读回 DeepClub 0.1.0 (1)，开发签名版此前已在真机启动。用户当前手边没有这台 iPhone，实体机的生产账号登录、扫码和工作区读取待验。DeepClub 官网与 Apple CDN 的域名关联均已覆盖该 App 的 `/pair` 和 `/pair/`。[真机安装记录](https://github.com/meyaomiao/deepclub-ios/issues/4#issuecomment-7003239099)
+
+Xcode 自动签名成功导出同一归档的团队内测 IPA。主 App、Action、Share 和 Live Activity 全部通过 Apple 分发签名及描述文件检查，严格深签名校验通过。导出选项 `testFlightInternalTestingOnly=true`。IPA 共 24,312,628 字节，SHA-256 为 `fe626190421ca5fa8511dc4874084b5ef941be6f3250a5ce2e69b5882615feff`。[签名验收](https://github.com/meyaomiao/deepclub-ios/issues/6#issuecomment-7012696185)
+
+在 Organizer 验证阶段，App Store Connect 查询 `net.deepclub.remote` 返回 0 条应用记录。以名称 DeepClub、同名 Bundle ID 与 SKU `net.deepclub.remote`、主要语言简体中文尝试建档，Apple 返回 `STATE_ERROR.APP_CREATE.PLATFORM_NOT_ALLOWED_DUE_TO_CONTRACT_STATE`。账户持有人需查看 Apple 后台的协议状态。具体待处理协议以账户页面为准。建档、真机配对、TestFlight 上传和处理结果均待验收。[执行单](https://github.com/meyaomiao/deepclub-ios/issues/6) · [Apple 建档要求](https://developer.apple.com/help/app-store-connect/create-an-app-record/add-a-new-app/)
+
 角色 Contributor；AI-assisted: OpenAI Codex。Refs [iOS #4](https://github.com/meyaomiao/deepclub-ios/issues/4)、[主集成 #509](https://github.com/meyaomiao/deepclub/issues/509)、[#444](https://github.com/meyaomiao/deepclub/issues/444) / [#480](https://github.com/meyaomiao/deepclub/issues/480)。冻结 P2 [PR #3](https://github.com/meyaomiao/deepclub-ios/pull/3) / `c8f0bd3ee5c25393a5c3f32eb01d38267075446b` 不追加源码；本轮只交付新 P4 分支上的 delta。
 
 本轮已真实通过系统浏览器授权、热进程 OS 深链配对、App 重启恢复和独立 iOS 基本流式任务。Stop、工具 / 原生文件读取、iOS 实际 relay、新二维码冷启动、审批、Host 重启恢复及退出 / 服务端撤销均未完成本轮验收。双端虚拟设备发生系统环境失败后，lead 明确暂停 UI 重试并先提交 Draft 供审查；不能把本记录视为完整 P4 通过。
