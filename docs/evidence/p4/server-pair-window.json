@@ -1,0 +1,12 @@
+{
+  "delivery_utc": "2026-11-16T05:41:09.842Z",
+  "authority_assertion_200_at": ["2026-11-16T05:41:10Z", "2026-11-16T05:41:12Z"],
+  "authority_verify_200_at": ["2026-11-16T05:41:10Z", "2026-11-16T05:41:12Z"],
+  "host_ios_connections_at": ["2026-11-16T05:41:10.566Z", "2026-11-16T05:41:12.916Z"],
+  "observed_at": "2026-11-16T05:43:46.215Z",
+  "ios_device_online": true,
+  "ios_device_connections": 2,
+  "android_device_online": true,
+  "android_device_connections": 1,
+  "note": "Server logs confirm real same-account authority and Host connections for one task iOS device with two connections. The server does not log raw hello frames; protocol3 reception must be supported by the iOS test evidence. No pair regeneration, device revocation, or credential body output."
+}

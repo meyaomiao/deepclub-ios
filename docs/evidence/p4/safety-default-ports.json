@@ -1,0 +1,64 @@
+[
+  {
+    "command": [
+      "xcrun",
+      "swiftc",
+      "-swift-version",
+      "5",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/source/DeepSeekHarnessMobile/Core/DeepClubProtocol.swift",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/source/DeepSeekHarnessMobile/Core/GatewayProfile.swift",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/source/DeepSeekHarnessMobile/Core/PairingPayloadParser.swift",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/safety/main.swift",
+      "-o",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/safety/production-ports"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/safety/production-ports"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "xcrun",
+      "swiftc",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk",
+      "-target",
+      "arm64-apple-ios17.0-simulator",
+      "-DDEBUG",
+      "-DDEEPCLUB_LOCAL_INTEGRATION",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/source/DeepSeekHarnessMobile/Core/DeepClubProtocol.swift",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/source/DeepSeekHarnessMobile/Core/GatewayProfile.swift",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/source/DeepSeekHarnessMobile/Core/PairingPayloadParser.swift",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/safety/main.swift",
+      "-o",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/safety/local-ports"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "codesign",
+      "--force",
+      "--sign",
+      "-",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/safety/local-ports"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "xcrun",
+      "simctl",
+      "spawn",
+      "D3D6FA3B-4810-4390-9BF1-C6E81AA0ECA6",
+      "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p4-integration/.work/safety/local-ports"
+    ],
+    "exit_code": 0
+  }
+]
