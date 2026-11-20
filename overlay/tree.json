@@ -249,12 +249,12 @@
     "DeepSeekHarnessMobile/Resources/Info.plist": {
       "before_sha256": "d693bd55971b53aaafb8ba136f6cd9a82d0d168010bd08a85a65119b43ca09bf",
       "mode": "644",
-      "sha256": "5b75d3e6ff7007e79b538a0b0e7beb2d06fc4a9c6253123c92c81c59f9ac89f2"
+      "sha256": "638e4e9fb0cc94582223d9986d717be603774f3c2b6d9b6497e438e551df019d"
     },
     "DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings": {
       "before_sha256": "3a375d850f3638765e09c3fad429cf57771b7775a0a08da26909650defa4f3fe",
       "mode": "644",
-      "sha256": "6408fdcb7031a6265fca3237e8e6a4c8b985ccaa56db378d9d074e5482c29fab"
+      "sha256": "b32452a8d0d6bbd6338e130202f087c239a8bd7812451d6dd82965f4c61afc80"
     },
     "DeepSeekHarnessMobile/Resources/LaunchScreen.storyboard": {
       "before_sha256": "f5b143c8a79fd4bd54f8b6ff6f416a90a5ab58effac9d12c43eed6e0ef46a8e7",

@@ -3183,7 +3183,7 @@ index c56c567..584e3af 100644
    }
  }
 diff --git a/DeepSeekHarnessMobile/Resources/Info.plist b/DeepSeekHarnessMobile/Resources/Info.plist
-index b32611f..26928c6 100644
+index b32611f..ab30dbe 100644
 --- a/DeepSeekHarnessMobile/Resources/Info.plist
 +++ b/DeepSeekHarnessMobile/Resources/Info.plist
 @@ -2,15 +2,15 @@
@@ -3260,11 +3260,19 @@ index b32611f..26928c6 100644
  	<key>NSLocalNetworkUsageDescription</key>
  	<string>连接局域网中的 DeepSeek Harness Mobile Gateway。</string>
  	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+@@ -115,5 +117,7 @@
+ 	<string>$(DSH_SHARE_APP_GROUP)</string>
+ 	<key>NSHealthShareUsageDescription</key>
+ 	<string>读取步数与睡眠摘要，供你已授权的主机和模型服务回顾日常健康。可随时关闭连接器。</string>
++	<key>NSHealthUpdateUsageDescription</key>
++	<string>可选健康连接器仅在你开启后读取步数与睡眠摘要，不会主动写入健康数据；此说明用于满足系统 HealthKit 授权接口要求。</string>
+ </dict>
+ </plist>
 diff --git a/DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings b/DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings
-index 5dab7ac..bb2f87c 100644
+index 5dab7ac..4259c85 100644
 --- a/DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings
 +++ b/DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings
-@@ -1,318 +1,318 @@
+@@ -1,318 +1,334 @@
  {
 -  "sourceLanguage" : "zh-Hans",
 -  "strings" : {
@@ -3778,6 +3786,22 @@ index 5dab7ac..bb2f87c 100644
 +          "stringUnit": {
 +            "state": "translated",
 +            "value": "Use precise location when you ask to find nearby places, look up addresses and plan routes for your authorized host."
++          }
++        }
++      }
++    },
++    "NSHealthUpdateUsageDescription": {
++      "localizations": {
++        "en": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "The optional Health connector only reads step and sleep summaries when enabled and does not write Health data. This declaration is required by the HealthKit authorization API."
++          }
++        },
++        "zh-Hans": {
++          "stringUnit": {
++            "state": "translated",
++            "value": "可选健康连接器仅在你开启后读取步数与睡眠摘要，不会主动写入健康数据；此说明用于满足系统 HealthKit 授权接口要求。"
            }
          }
        }

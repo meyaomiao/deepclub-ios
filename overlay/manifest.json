@@ -1,6 +1,6 @@
 {
   "artifacts": {
-    "deepclub.patch": "bd1da80338ab9b844fb7379de0c0219b39c975c74b6e9af799dfcf75133a2bb5",
+    "deepclub.patch": "9c895a6ad2e1e72fc7d4d7eebfbde6a8073899dfe86ff7a7090ee55469591fcb",
     "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/Contents.json": "615bc047bbb38c650f8ba1736444b9a6a872382fbb9686ef57f85e33226cab16",
     "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol-dark.svg": "cb1eb0a829f2c42586d05b912eaf80b842dece96838ae3df383e565e3fd34e8d",
     "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol.svg": "12ee7b0f248a9a70be3a6b92e48b91848368822d5e8438ce27983958ca0f85b1",
@@ -20,8 +20,8 @@
     "replace/ActionExtension/Assets.xcassets/ActionIcon.appiconset/ActionIcon.png": "0e3c83e838f0f933e494052c9b5574bd2ceb77024cf3464151188eb11a490e27",
     "replace/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-dark.png": "0c8f9fa36fd08c9f946bee0bdb61bfa8a8a9a16ed14194b15dcc7351e5d86f9f",
     "replace/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-light.png": "807aa317d9105649028c235176edd9cfe7c4dd713dde402c8c8d76bf7c31db7a",
-    "source-state.json": "551f99bfb2446ce93965bee5ee5bd45253a0a45ce360bf8868e4e130dc6046ab",
-    "tree.json": "2a1143bdf894961eee7045101a5e841e198b07ba9bc7f3ebf41ab34a6146ffe3",
+    "source-state.json": "b0319298fa5fadf52a74912849c307a13f2eb603cd0577d0ea15884742cc8b14",
+    "tree.json": "b5b8a4ab78b3731ee5a0b310606866b7ed52ed0ca4812c7127e7a70bc592e5ef",
     "upstream-state.json": "8cd0bb994d6bccc8023ee38ad2277466f5bb51b60c0780b18ad526e33491ee55"
   },
   "schema": 1,
