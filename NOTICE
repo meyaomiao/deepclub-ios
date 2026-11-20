@@ -4,3 +4,6 @@ Pinned source: f86f005e3491866a2a7aa03f8894dd606a0dde8b
 Copyright (c) 2026 Chaofan Li. Upstream MIT terms are preserved in LICENSE.upstream.
 DeepClub modifications are Copyright (c) 2026 DeepClub contributors.
 DeepClub is not an official DeepSeek product.
+DeepClub account-service lineage: protectedNewAPI / QuantumNous (new-api).
+That server implementation is not copied into this iOS-only source export;
+its attribution and licensing remain with the separately maintained backend.

@@ -1,0 +1,24 @@
+Executable=/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/DerivedData/Build/Products/Debug-iphonesimulator/DeepClub.app/DeepClub
+Identifier=DeepClub
+Format=app bundle with Mach-O thin (arm64)
+CodeDirectory v=20400 size=417 flags=0x20002(adhoc,linker-signed) hashes=10+0 location=embedded
+VersionPlatform=7
+VersionMin=1048832
+VersionSDK=1705216
+Hash type=sha256 size=32
+CandidateCDHash sha256=02811527a5d3864aa2c9738c2ee82dd926605e8d
+CandidateCDHashFull sha256=02811527a5d3864aa2c9738c2ee82dd926605e8d70c09531235bf13d1ea70c32
+Hash choices=sha256
+CMSDigest=02811527a5d3864aa2c9738c2ee82dd926605e8d70c09531235bf13d1ea70c32
+CMSDigestType=2
+Executable Segment base=0
+Executable Segment limit=7264
+Executable Segment flags=0x1
+Page size=4096
+CDHash=02811527a5d3864aa2c9738c2ee82dd926605e8d
+Signature=adhoc
+Info.plist=not bound
+TeamIdentifier=not set
+Sealed Resources=none
+Internal requirements=none
+warning: Specifying ':' in the path is deprecated and will not work in a future release

@@ -1,0 +1,17 @@
+{
+  "simulator": {
+    "name": "DeepClub2-P2-iPhone",
+    "udid": "C219BB5D-F375-4569-84C1-D4B2D4EEBF84",
+    "runtime": "iOS 26.5",
+    "owner_issue": 2
+  },
+  "state_before_shutdown": "Booted",
+  "state_after_shutdown": "Shutdown",
+  "registry_removed_after_delete": true,
+  "verified_absolute_device_directory": "/Users/xzb/Library/Developer/CoreSimulator/Devices/C219BB5D-F375-4569-84C1-D4B2D4EEBF84",
+  "device_directory_removed": true,
+  "preexisting_other_simulator_ids_preserved": true,
+  "real_account_sign_in_attempted": false,
+  "fresh_manual_launch_observation": "DeepClub login page and MIT attribution visible; normal system notification authorization prompt remains; no security credential cleanup error after ad-hoc signing.",
+  "screenshot_sha256": "5a5d9f4ae14d6a2e6109dc7ba975c61d74675343552240245d6d989dd06cbde1"
+}

@@ -1,0 +1,56 @@
+{
+  "adaptation_base": "6ec0f8462361347cfd0d4a443acb200f4942e408",
+  "artifacts": {
+    "app_debug_dylib": {
+      "bytes": 74861368,
+      "sha256": "eed1df910a182df9e99a3896a67e3c69904ea491172860d18c441d330b26ecdd"
+    },
+    "app_loader": {
+      "bytes": 40344,
+      "sha256": "09b4cb1526acee82bf76306c58ab75ec8caf362d7cc0cc63ecaf49725a404e59"
+    },
+    "kmp_framework": {
+      "bytes": 56639832,
+      "sha256": "eddc6c97da59ffd41c64fe1c6dbbea5d880ca8aa2763e76fbddf25109d63bf0a"
+    }
+  },
+  "collections": {
+    "new": 13,
+    "removals": 4,
+    "replacements": 3,
+    "text": 49
+  },
+  "compiled_source_files_verified_after_test": 1115,
+  "export_files": 1115,
+  "log_sha256": {
+    "kmp-final.log": "0ecc6e1a101a1d978301b70e0948c063ffa91b5c26f8975866e436c5762edd24",
+    "xcode-build.log": "94146f1e41040a88b24d1a2aff21641bb0649c542e9840a5b97d19d80f8e2c31",
+    "xcode-test.log": "ded4d573de6c31be9eff87aff3ca88dbe2cb19255c3c1441343423ab4dcc35b0"
+  },
+  "manifest_sha256": "f616dc283fb7f2aaa68b74db69e078bf9107fc3e503460cc3603f17ec7551a72",
+  "original_source_after": {
+    "tracked_binary_diff_bytes": 2281589,
+    "tracked_binary_diff_sha256": "9f70d2a4046a4d7509b18d0e0a5262a6218bab26b4eec0036c0ed76b008033b6",
+    "untracked_sha256": "218e4758e373c9622de1c8623c5b066908f2a8cc8881d498d7688dc5042e8d26"
+  },
+  "original_source_before": {
+    "tracked_binary_diff_bytes": 2281589,
+    "tracked_binary_diff_sha256": "9f70d2a4046a4d7509b18d0e0a5262a6218bab26b4eec0036c0ed76b008033b6",
+    "untracked_sha256": "218e4758e373c9622de1c8623c5b066908f2a8cc8881d498d7688dc5042e8d26"
+  },
+  "simulator": {
+    "name": "DeepClub2-P2-iPhone",
+    "owner_issue": 2,
+    "runtime": "iOS 26.5",
+    "udid": "C219BB5D-F375-4569-84C1-D4B2D4EEBF84"
+  },
+  "source_state_sha256": "60354fc4281dafd5883b2838773f17076527b98ed78d65b37e63e19776810f97",
+  "tests": {
+    "executed": 19,
+    "failures": 0,
+    "kind": "XCTest with synthetic browser/account/network boundaries on iOS Simulator 26.5",
+    "result_bundle": "/Users/xzb/Documents/_issue-worktrees/deepclub-ios-p2-integration/.work/DeepClubTests-20261115T095209.xcresult"
+  },
+  "unexpected_exportable_files": [],
+  "upstream_commit": "f86f005e3491866a2a7aa03f8894dd606a0dde8b"
+}

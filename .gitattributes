@@ -1,0 +1,4 @@
+# Patch context preserves pinned upstream CRLF and indentation byte-for-byte.
+overlay/*.patch -whitespace
+# Preserve process stdout verbatim so published log hashes remain reproducible.
+docs/evidence/*.log -whitespace
