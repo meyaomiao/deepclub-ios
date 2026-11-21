@@ -1,6 +1,6 @@
 {
   "artifacts": {
-    "deepclub.patch": "9c895a6ad2e1e72fc7d4d7eebfbde6a8073899dfe86ff7a7090ee55469591fcb",
+    "deepclub.patch": "30d30ab27fb9835c98270067f37cd350e2da451a49953b4eefba7e5733ad2e87",
     "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/Contents.json": "615bc047bbb38c650f8ba1736444b9a6a872382fbb9686ef57f85e33226cab16",
     "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol-dark.svg": "cb1eb0a829f2c42586d05b912eaf80b842dece96838ae3df383e565e3fd34e8d",
     "new/AgentLiveActivityWidget/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol.svg": "12ee7b0f248a9a70be3a6b92e48b91848368822d5e8438ce27983958ca0f85b1",
@@ -9,6 +9,7 @@
     "new/DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/Contents.json": "615bc047bbb38c650f8ba1736444b9a6a872382fbb9686ef57f85e33226cab16",
     "new/DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol-dark.svg": "cb1eb0a829f2c42586d05b912eaf80b842dece96838ae3df383e565e3fd34e8d",
     "new/DeepSeekHarnessMobile/Resources/Assets.xcassets/DeepClubMark.imageset/deepclub-symbol.svg": "12ee7b0f248a9a70be3a6b92e48b91848368822d5e8438ce27983958ca0f85b1",
+    "new/DeepSeekHarnessMobile/Resources/PrivacyInfo.xcprivacy": "4f2ee15225a7d90516a2d8772a28bb373ee49f97e16592d293c9646bf92f0fa6",
     "new/DeepSeekHarnessMobile/Resources/ThirdPartyNotices.txt": "5d622dc48be8e383f85ba462afeb6803974ac67639792fabbeb1e57381075c00",
     "new/DeepSeekHarnessMobile/Views/DeepClubAccountView.swift": "4a7b0b9237f610916a05c973fd3afd9e559ae85b8505fa57db42981942f520d6",
     "new/DeepSeekHarnessMobileTests/DeepClubAccountTests.swift": "2c52b66df17ff6cbbc766ee5edb58ab044897dce1967c02c5ce8545a0a53b03e",
@@ -20,8 +21,8 @@
     "replace/ActionExtension/Assets.xcassets/ActionIcon.appiconset/ActionIcon.png": "0e3c83e838f0f933e494052c9b5574bd2ceb77024cf3464151188eb11a490e27",
     "replace/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-dark.png": "0c8f9fa36fd08c9f946bee0bdb61bfa8a8a9a16ed14194b15dcc7351e5d86f9f",
     "replace/DeepSeekHarnessMobile/Resources/Assets.xcassets/AppIcon.appiconset/AppIcon-light.png": "807aa317d9105649028c235176edd9cfe7c4dd713dde402c8c8d76bf7c31db7a",
-    "source-state.json": "b0319298fa5fadf52a74912849c307a13f2eb603cd0577d0ea15884742cc8b14",
-    "tree.json": "b5b8a4ab78b3731ee5a0b310606866b7ed52ed0ca4812c7127e7a70bc592e5ef",
+    "source-state.json": "3b970cb85463b768177ea35d558d62d5d60b80b91dc88b098452c60788ff0131",
+    "tree.json": "b1f105daecfd6c87e2a62a34fb75b7e4c55ddd3c54b1db4ca6d075db4bbd714c",
     "upstream-state.json": "8cd0bb994d6bccc8023ee38ad2277466f5bb51b60c0780b18ad526e33491ee55"
   },
   "schema": 1,

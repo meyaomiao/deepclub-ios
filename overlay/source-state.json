@@ -61,7 +61,7 @@
   },
   "DeepSeekHarnessMobile.xcodeproj/project.pbxproj": {
     "mode": "644",
-    "sha256": "ba9d735dd1c0bf81789b2c24ba276e0fb1fc5d147426bdb63cae6cef0bafa836"
+    "sha256": "7a4f0d7c0f9c4f0b4402e5fddc1d9db3dc1f43e6ddeeea5c36677f5c0f186542"
   },
   "DeepSeekHarnessMobile.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved": {
     "mode": "644",
@@ -133,11 +133,11 @@
   },
   "DeepSeekHarnessMobile/Core/AgentBackgroundExecutionController.swift": {
     "mode": "644",
-    "sha256": "a55dc78366298345ae0039b4d7650d9effe322e7d51aba558bd9e1c5fb4dd8fb"
+    "sha256": "fd3de06c3a302b7e1dfdd58de7d9d052152636a194749248091822cd8b3802a2"
   },
   "DeepSeekHarnessMobile/Core/AgentBackgroundKeepAliveManager.swift": {
     "mode": "644",
-    "sha256": "d8edb893553dd5dbaa42d60fb7406e45bdd97229af9351f441985a4ff9ab6cc8"
+    "sha256": "7485559b770342427e955bde15847f6b32a6c46124dddfbd2df51a4aee3c2b16"
   },
   "DeepSeekHarnessMobile/Core/AgentUserNotificationManager.swift": {
     "mode": "644",
@@ -2517,11 +2517,11 @@
   },
   "DeepSeekHarnessMobile/Resources/Info.plist": {
     "mode": "644",
-    "sha256": "638e4e9fb0cc94582223d9986d717be603774f3c2b6d9b6497e438e551df019d"
+    "sha256": "3e22b8dda02f5ae6c0d870397edaab48cde287f7dbed2dc38182003709e9a4b6"
   },
   "DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings": {
     "mode": "644",
-    "sha256": "b32452a8d0d6bbd6338e130202f087c239a8bd7812451d6dd82965f4c61afc80"
+    "sha256": "7d16c5645d1f2255f232f0c9e47caf586bed48120f5500ebe6bd955a5143f46c"
   },
   "DeepSeekHarnessMobile/Resources/LaunchScreen.storyboard": {
     "mode": "644",
@@ -2530,6 +2530,10 @@
   "DeepSeekHarnessMobile/Resources/Localizable.xcstrings": {
     "mode": "644",
     "sha256": "9e019515f40beacf1bf4ab9b05b080c6b40fbd43ccc99cfe7e965252e40a8e8b"
+  },
+  "DeepSeekHarnessMobile/Resources/PrivacyInfo.xcprivacy": {
+    "mode": "644",
+    "sha256": "4f2ee15225a7d90516a2d8772a28bb373ee49f97e16592d293c9646bf92f0fa6"
   },
   "DeepSeekHarnessMobile/Resources/Sharing.entitlements": {
     "mode": "644",
