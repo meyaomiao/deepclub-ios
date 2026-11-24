@@ -1,7 +1,7 @@
 {
   "AGENTS.md": {
     "mode": "644",
-    "sha256": "8fddddd0b60ac54ff7e84fa298713f4d922f340ea999035e1f3ed4d3d8851ef2"
+    "sha256": "0e46c9148f669e05f60af9e3dca5a20c72641edd5d46595b8d0d6ed047c9f600"
   },
   "ActionExtension/Assets.xcassets/ActionIcon.appiconset/ActionIcon.png": {
     "mode": "644",
@@ -61,27 +61,31 @@
   },
   "DeepSeekHarnessMobile.xcodeproj/project.pbxproj": {
     "mode": "644",
-    "sha256": "7a4f0d7c0f9c4f0b4402e5fddc1d9db3dc1f43e6ddeeea5c36677f5c0f186542"
+    "sha256": "a2ad30f0d04d17f82e9bdab7dd35a346cff2b240370cd1aeaa0f5ccaa292bfad"
   },
   "DeepSeekHarnessMobile.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved": {
     "mode": "644",
-    "sha256": "8aad5b86e7b9fe19a913e9dc456f633a551e8a9351fe98f39f594f95486e48a7"
+    "sha256": "458ea2766f8ee6d660bca0e73437a6a51e0d32ee869062534a131893da29b230"
   },
   "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/DeepSeekHarnessMobile.xcscheme": {
     "mode": "644",
-    "sha256": "efb1136527f7e3eff82ef563338bdbde5da8383e10a78bdc1b6e280d61811f0a"
+    "sha256": "3b377a06a119bf0a18a7b442424cb8b700cf8aa132a649d809fa5bd949700bb2"
   },
   "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/ShareInboxTests.xcscheme": {
     "mode": "644",
     "sha256": "482648284ace86bbd058309434bc05811052ab1e6226792fe47c2d1768b00a18"
   },
+  "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/TeamCompatibilityTests.xcscheme": {
+    "mode": "644",
+    "sha256": "8e5ea2be78efbcd43da9571af8c5cb56f8f855e97150bb69dc51fd8b4b33c7df"
+  },
   "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/WorkspaceDrawerUITests.xcscheme": {
     "mode": "644",
-    "sha256": "efb1136527f7e3eff82ef563338bdbde5da8383e10a78bdc1b6e280d61811f0a"
+    "sha256": "3b377a06a119bf0a18a7b442424cb8b700cf8aa132a649d809fa5bd949700bb2"
   },
   "DeepSeekHarnessMobile/App/DeepSeekHarnessMobileApp.swift": {
     "mode": "644",
-    "sha256": "471a458de96584ed1aab66dd28b75345c5cdf02c7018e887b18dfd52f16a0a1a"
+    "sha256": "4abad9657404d2feebfb77a240855b2e68fba8e34e967f7adcc030aeb56ad777"
   },
   "DeepSeekHarnessMobile/Components/AppleMapsAppCard.swift": {
     "mode": "644",
@@ -89,7 +93,7 @@
   },
   "DeepSeekHarnessMobile/Components/AppleMusicAppCard.swift": {
     "mode": "644",
-    "sha256": "e3a2e6a22899f3a9b79a0c19ad5edb2381df0ccaf2648f8c6c604b5e08465f85"
+    "sha256": "411fbda5960fea4300ddc7ab018cf4f41c2ae329f928b159d1bf19ae062a7d4e"
   },
   "DeepSeekHarnessMobile/Components/CodeSyntaxHighlighter.swift": {
     "mode": "644",
@@ -97,7 +101,7 @@
   },
   "DeepSeekHarnessMobile/Components/ConversationViewport.swift": {
     "mode": "644",
-    "sha256": "914faebd61122c6810a88b5ea243247130bfc66487ee8a1d2568a681513961b3"
+    "sha256": "229a427a103e1bdee71e2d8e5d157ba68f360eb7d2c8381bd1620f37ef323c42"
   },
   "DeepSeekHarnessMobile/Components/DocumentPageChrome.swift": {
     "mode": "644",
@@ -109,15 +113,15 @@
   },
   "DeepSeekHarnessMobile/Components/Glass.swift": {
     "mode": "644",
-    "sha256": "002950e236237e6864bc9033f3447774ea845ef352e6e6b2fc021f575c906f2a"
+    "sha256": "d1697c6779b2dd88460728c9439d49cc359990c55e067cf43eff1b48a62f4389"
   },
   "DeepSeekHarnessMobile/Components/HarnessAnimatedBackground.swift": {
     "mode": "644",
-    "sha256": "877d395ae465b894a5b7040976918a4091a908ffb64fb1f84f798c85385e98f2"
+    "sha256": "c427172380ce89f27127415e65eeee3769d6f13036ae7ee5df1eb14a6fa6eebb"
   },
   "DeepSeekHarnessMobile/Components/MarkdownMath.swift": {
     "mode": "644",
-    "sha256": "a8cc6d17539f2563c8505661967325dea6126fce165df45b2d081314a476c7e3"
+    "sha256": "3dbf6d4dc74fd7c90cc881c4fa0451a54ad7900b92afe0c14b5db03b7ebd01a4"
   },
   "DeepSeekHarnessMobile/Components/MarkdownTableCard.swift": {
     "mode": "644",
@@ -133,7 +137,7 @@
   },
   "DeepSeekHarnessMobile/Core/AgentBackgroundExecutionController.swift": {
     "mode": "644",
-    "sha256": "fd3de06c3a302b7e1dfdd58de7d9d052152636a194749248091822cd8b3802a2"
+    "sha256": "7259a67d31e694c57fe899d32055c87d7a1bbaaa7b911137acda018b1bf86a1e"
   },
   "DeepSeekHarnessMobile/Core/AgentBackgroundKeepAliveManager.swift": {
     "mode": "644",
@@ -141,7 +145,7 @@
   },
   "DeepSeekHarnessMobile/Core/AgentUserNotificationManager.swift": {
     "mode": "644",
-    "sha256": "2143a41232e46c474ac4242faab9f6f70d4662a96c486843729dffc65b8475b6"
+    "sha256": "7c8a00e9a429f7d4ac14ae16472909dec748e133f1f9336087b443315941aa23"
   },
   "DeepSeekHarnessMobile/Core/AppPreferences.swift": {
     "mode": "644",
@@ -149,11 +153,11 @@
   },
   "DeepSeekHarnessMobile/Core/AppStore.swift": {
     "mode": "644",
-    "sha256": "11deb9c7aed55bae5feb1333afa5752999439386d1cde98ee43ad5e1ab9cc665"
+    "sha256": "8b97af1493b6924ea2528aca0f4cd42439300f5c0fab53d3f45e801ebcafc88f"
   },
   "DeepSeekHarnessMobile/Core/AttachmentLoader.swift": {
     "mode": "644",
-    "sha256": "52509fd5671f3ca3c6e8bfd7b514528b2734772f5df560e016b799488d4b41a4"
+    "sha256": "636fb334144b28731e0eae4e80797497962692c6ef22202a5c791538b079cb6f"
   },
   "DeepSeekHarnessMobile/Core/ChatHistoryCache.swift": {
     "mode": "644",
@@ -165,7 +169,7 @@
   },
   "DeepSeekHarnessMobile/Core/ConversationTimeline.swift": {
     "mode": "644",
-    "sha256": "32560ff7028c4fb1040900e9c460b2017cb8e222b898a06d1e19516bebb8a65e"
+    "sha256": "713990590a49ace6c1aae7d390472f3df16fce67222d624601cb253db935a99f"
   },
   "DeepSeekHarnessMobile/Core/DebugHistoryScrollMetrics.swift": {
     "mode": "644",
@@ -185,15 +189,15 @@
   },
   "DeepSeekHarnessMobile/Core/GatewayClient.swift": {
     "mode": "644",
-    "sha256": "c9ff58f31cc2fca75eb29476e61e9bc8e2696c31cedd6cf6bd4875faffe029cb"
+    "sha256": "7257b90804608dd53172193f3540c6648272cab7389716c16d2dfafd3b7a474f"
   },
   "DeepSeekHarnessMobile/Core/GatewayFrameRouter.swift": {
     "mode": "644",
-    "sha256": "d96ced266848642cef3611c5776eb445b3d4149d33afc06fb9b02868f81a357f"
+    "sha256": "30477cb4c38fed593c90f4fd844258c743a45d4c77a1cdfebe180a25ad7b2f21"
   },
   "DeepSeekHarnessMobile/Core/GatewayModels.swift": {
     "mode": "644",
-    "sha256": "83bdf61f42a8f2d20649f1a85a30f519df47fd15c7ea4c2c02f3715533c57ff3"
+    "sha256": "1048af1124f4a39c6f6ad69160e7ccd643497f43816a03feb737976fc1c0d83b"
   },
   "DeepSeekHarnessMobile/Core/GatewayNetworkDiagnostics.swift": {
     "mode": "644",
@@ -201,7 +205,7 @@
   },
   "DeepSeekHarnessMobile/Core/GatewayProfile.swift": {
     "mode": "644",
-    "sha256": "0b79dfda4c3506c7967e746f79fa723db0f65b47c6e66f8d65a9d3ecaf2dc679"
+    "sha256": "0fc6822f5992fc32f43b25da05e08aa91d33b8db9bb5b71ab0e10407be5bee9d"
   },
   "DeepSeekHarnessMobile/Core/HistoryPresentationAdmission.swift": {
     "mode": "644",
@@ -213,7 +217,7 @@
   },
   "DeepSeekHarnessMobile/Core/IOSDeviceConnectors.swift": {
     "mode": "644",
-    "sha256": "123b5bac81bbff050fda3efd9517d44f16d3ea07cd267d5ad86bb4420521b360"
+    "sha256": "c1d35754f8112f327fef28b1a4f4eaf4c56aabc1e2f15937a59a6263c66202bd"
   },
   "DeepSeekHarnessMobile/Core/IOSMapConnector.swift": {
     "mode": "644",
@@ -221,7 +225,7 @@
   },
   "DeepSeekHarnessMobile/Core/IOSMusicLibraryConnector.swift": {
     "mode": "644",
-    "sha256": "edb1fb4a622c2e8b87074cab7aa717ee2447247712b309087bf0a1418bc1cdb5"
+    "sha256": "da66026518b9a28478313d3a5dc353dcdef48812a1b18dbab40269fc517fd274"
   },
   "DeepSeekHarnessMobile/Core/ImageAttachmentCache.swift": {
     "mode": "644",
@@ -229,7 +233,7 @@
   },
   "DeepSeekHarnessMobile/Core/ImagePreprocessor.swift": {
     "mode": "644",
-    "sha256": "0aa83faf4663058826293061d6321d043ea18b2a9b3d5669dab973ae6e7f2c2c"
+    "sha256": "4dea276657e7b179cd910fc75122a4afde1447b49f174235bdcb50188673d725"
   },
   "DeepSeekHarnessMobile/Core/IncomingShareCoordinator.swift": {
     "mode": "644",
@@ -253,7 +257,7 @@
   },
   "DeepSeekHarnessMobile/Core/MultiGatewayStore.swift": {
     "mode": "644",
-    "sha256": "d98ad0ae25f3e3b939456826253e23f5264094708071878add02ce4b4db6b32c"
+    "sha256": "7fb0f70833858b9e9129abe9b2ac834958737f140f93b8d208c04367f12c0602"
   },
   "DeepSeekHarnessMobile/Core/NodeForwarding.swift": {
     "mode": "644",
@@ -285,7 +289,7 @@
   },
   "DeepSeekHarnessMobile/Core/Theme.swift": {
     "mode": "644",
-    "sha256": "5fbde67e84abf704c7afc4f32c2efe7a346cc3242ecb3adabf673d1a6c545cd0"
+    "sha256": "83e000ba35b0fe7e34175394378d43218b5c647ac890e4843b19a9d8a1a82142"
   },
   "DeepSeekHarnessMobile/Core/TsnetTunnel.swift": {
     "mode": "644",
@@ -313,7 +317,7 @@
   },
   "DeepSeekHarnessMobile/Core/WorkspaceSessionList.swift": {
     "mode": "644",
-    "sha256": "e53386a27a0bb48dbf8a980fff1d220f0a1850e9d9ee6b3faa7c1ab77cfd3797"
+    "sha256": "87db0796d05ab94b5c0fbc1562d9e16f09cb63c61231bbac31eba5d36efdd18d"
   },
   "DeepSeekHarnessMobile/LiveActivity/AgentActivityAttributes.swift": {
     "mode": "644",
@@ -1495,9 +1499,101 @@
     "mode": "644",
     "sha256": "c958d41130697ce0127f0c8ff82368b4e51f02f779cee37d5b16128e894f2fa3"
   },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotBlue.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "3ecef830619a5acabedd671fdb744b30f2df389df935524f8bf61ed9e7d3c44c"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotCard.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "be7c7971e17ead1102006935308baca78e06729fc6a70533bd6b57f7285a237c"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotConversationMark.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "447f3c11273708224ccac677cc91a590134066f13c51596f8372ad0d1aaef2c9"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotConversationMark.imageset/conversation.svg": {
+    "mode": "644",
+    "sha256": "6d6a84bbe813df405b07d0b27a5856fab40ed35b3e0a10dbcf3e81da3c75e766"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotDrawerMark.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "6255854cc55ad2cb79581264cf4b62b37c6e46edb45177e8e73eca5413607a52"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotDrawerMark.imageset/bot-drawer-mark.svg": {
+    "mode": "644",
+    "sha256": "003777def9d2032f9d7ba6776eb828150348d88b6d3e4cff8a16d5eb7a4e79a6"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotGlassRim.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "cc4b9fd7354879fe9a437623e2faf2057197752863fc63444c46d5fc30841b6e"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotGlassTint.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "8aeee45e68e6f22408fcceca590a119e7926f4b31ee9d2d47e6258fbe983c0fc"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotGroupAvatar.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "45d9de397d1b0b323456650bd0f0ba4add208dff4d6f6c24a45e41063ba79a73"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotGroupAvatar.imageset/group-avatar.svg": {
+    "mode": "644",
+    "sha256": "58e74eabd42bc0e4c71eb60eb19d300f0f020860ae5af49f5923561b502393be"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotGroupedSurface.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "715a7b369ecf305f309ec170555db63ceed46a7c95eab32a4be2aaab90ac0eb6"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotInk.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "205b5aa448a7fb7073ac5e17cc24a322ac615f7a1322c41caaf782aeaef45dcd"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotLavender.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "fa005f1bc8982d11a4184a3fa14010d1c3591759c69859cc5665e769f5875b03"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotLavenderSoft.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "fa564c43eb9b857e9780740e51e455e9f1280e23176288594b1e869824887f07"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotLine.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "2446f470290cec18aa07c500f688f798b0d1a514b6c9108828d6b01f6e670363"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotModeSwap.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "86fdf2c066d5876f651863121f34340e859f059149f315ea8af14b26bdfd6b71"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotModeSwap.imageset/mode-swap.svg": {
+    "mode": "644",
+    "sha256": "13ad190aff09a5e31ee4961c969d3aa0d3724109e8eae322418b55bd6a6681a1"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotPurple.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "76290b9c5dfe32e4ce6e55ee471d1954c53b033ed7a41704a1ada9fb00a7ae0d"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotSecondary.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "7128a898e0b7521fcd92380e86d8283956a3dd3b523466ab38f61ca655e14381"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotSend.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "d954a6c6e6d784caeabc9bee139eed3363127c7147b4a446c7c30d090e4941a2"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/BotUserBubble.colorset/Contents.json": {
+    "mode": "644",
+    "sha256": "0f21c4ddb35f853fd0165a8258462987595c9e87c48af73052f02850858d6976"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/ComposerCamera.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "92bf1196b8677648ef9f1443d4e458f33658c722e5a278c1810e0854cdbe615c"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/ComposerCamera.imageset/composer-camera.svg": {
+    "mode": "644",
+    "sha256": "f0c41696a43c10355914c4cf54245406f1b89c26c93267ade348593a2b8ef9a9"
+  },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorCalendar.imageset/Contents.json": {
     "mode": "644",
-    "sha256": "b06b65b06b4535bb4f414000cb1abee1a276f9fcf4523b07a80c53ab662b7df0"
+    "sha256": "78be6dc780a20c88c4ab229decc897da5599e3a58d649df535bf41a280125a43"
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorCalendar.imageset/icon.png": {
     "mode": "644",
@@ -1505,7 +1601,7 @@
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorHealth.imageset/Contents.json": {
     "mode": "644",
-    "sha256": "b06b65b06b4535bb4f414000cb1abee1a276f9fcf4523b07a80c53ab662b7df0"
+    "sha256": "78be6dc780a20c88c4ab229decc897da5599e3a58d649df535bf41a280125a43"
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorHealth.imageset/icon.png": {
     "mode": "644",
@@ -1513,7 +1609,7 @@
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorLocation.imageset/Contents.json": {
     "mode": "644",
-    "sha256": "b06b65b06b4535bb4f414000cb1abee1a276f9fcf4523b07a80c53ab662b7df0"
+    "sha256": "78be6dc780a20c88c4ab229decc897da5599e3a58d649df535bf41a280125a43"
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorLocation.imageset/icon.png": {
     "mode": "644",
@@ -1521,7 +1617,7 @@
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorMusic.imageset/Contents.json": {
     "mode": "644",
-    "sha256": "b06b65b06b4535bb4f414000cb1abee1a276f9fcf4523b07a80c53ab662b7df0"
+    "sha256": "78be6dc780a20c88c4ab229decc897da5599e3a58d649df535bf41a280125a43"
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorMusic.imageset/icon.png": {
     "mode": "644",
@@ -1529,7 +1625,7 @@
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorPhotos.imageset/Contents.json": {
     "mode": "644",
-    "sha256": "b06b65b06b4535bb4f414000cb1abee1a276f9fcf4523b07a80c53ab662b7df0"
+    "sha256": "78be6dc780a20c88c4ab229decc897da5599e3a58d649df535bf41a280125a43"
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorPhotos.imageset/icon.png": {
     "mode": "644",
@@ -1545,7 +1641,7 @@
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorReminders.imageset/Contents.json": {
     "mode": "644",
-    "sha256": "b06b65b06b4535bb4f414000cb1abee1a276f9fcf4523b07a80c53ab662b7df0"
+    "sha256": "78be6dc780a20c88c4ab229decc897da5599e3a58d649df535bf41a280125a43"
   },
   "DeepSeekHarnessMobile/Resources/Assets.xcassets/ConnectorReminders.imageset/icon.png": {
     "mode": "644",
@@ -2511,17 +2607,65 @@
     "mode": "644",
     "sha256": "e6afc83b7a1e2db68aa5fcebabba7aa2295d2b0a9230292f7aeeb9a80fb47475"
   },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceDrawerMark.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "f4062e4f66c2ce06c01c41296a6749e2e1294197d2e525b03b6b6c1bc90abf3c"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceDrawerMark.imageset/workspace-drawer-mark.svg": {
+    "mode": "644",
+    "sha256": "65e6ef0dc77d2e13fdbb9dc260c68a9f7b7dc2d21f2dd7a6b5a465d8eec2f513"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewChevron.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "c8f941becf7a46f7d799ba01cab5f1ee3f811b02ec0c5bd5ee5b0b2abc962183"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewChevron.imageset/WorkspaceReviewChevron.svg": {
+    "mode": "644",
+    "sha256": "8bc20a57bc5e134b04374c18a14bf6d8c288a969c8cdfaeee2be9bef9b51bb51"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewClose.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "ec0ff93c2ff24db7b9c350614d3730dee88eb029bda6fc6dac0f4d558641ad08"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewClose.imageset/WorkspaceReviewClose.svg": {
+    "mode": "644",
+    "sha256": "cb6bc83c7f1cab3bb73f5e4d2ba4dec0321066c83a112f31ffece9a7e5297f37"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewIconsLicense.dataset/Contents.json": {
+    "mode": "644",
+    "sha256": "f0461c17dc5bc93bfaa2dcc057120cd1ee4a7677a4c2aa38813eeacb9f85e200"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewIconsLicense.dataset/LICENSE.txt": {
+    "mode": "644",
+    "sha256": "848c6c6d88ca6455180d38020b24ef4227e090f3c0ceaa9df9bf62331e182cbd"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewNoWrap.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "97d6d2052ea2da77efc8d307a83c500564fe9fdb34976fcd11c9409a15864972"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewNoWrap.imageset/WorkspaceReviewNoWrap.svg": {
+    "mode": "644",
+    "sha256": "613f77148ff6d2ddf6621b0817700274dedbf054ca20b1001d885010d08ef099"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewWrap.imageset/Contents.json": {
+    "mode": "644",
+    "sha256": "cf73bf132a50b792530138c9f48e7d906d399961c570daa2ca4f1c6deac165f2"
+  },
+  "DeepSeekHarnessMobile/Resources/Assets.xcassets/WorkspaceReviewWrap.imageset/WorkspaceReviewWrap.svg": {
+    "mode": "644",
+    "sha256": "c81a41fd933f2b88f687bfed40846ba3337da8da72d715f12dd28f90383b2ac8"
+  },
   "DeepSeekHarnessMobile/Resources/DeepSeekHarnessMobile-Bridging-Header.h": {
     "mode": "644",
     "sha256": "8a6402850da7fa6825be23f4cd457ced41547acd09098c4f202c9b51fddeed36"
   },
   "DeepSeekHarnessMobile/Resources/Info.plist": {
     "mode": "644",
-    "sha256": "3e22b8dda02f5ae6c0d870397edaab48cde287f7dbed2dc38182003709e9a4b6"
+    "sha256": "1f9f210a4c06ebd0fbd3700c6840b831797daa5bd18a4b675c360d97ae478491"
   },
   "DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings": {
     "mode": "644",
-    "sha256": "7d16c5645d1f2255f232f0c9e47caf586bed48120f5500ebe6bd955a5143f46c"
+    "sha256": "7b56db9e8d161dcf6fb46514cc5419b097b867053cefae3e013b57aac9ade2eb"
   },
   "DeepSeekHarnessMobile/Resources/LaunchScreen.storyboard": {
     "mode": "644",
@@ -2529,7 +2673,7 @@
   },
   "DeepSeekHarnessMobile/Resources/Localizable.xcstrings": {
     "mode": "644",
-    "sha256": "9e019515f40beacf1bf4ab9b05b080c6b40fbd43ccc99cfe7e965252e40a8e8b"
+    "sha256": "8116e1c19b76c4832ca3508171eb6621cd45dbc8a48b4d289a777236a7299a82"
   },
   "DeepSeekHarnessMobile/Resources/PrivacyInfo.xcprivacy": {
     "mode": "644",
@@ -2545,23 +2689,31 @@
   },
   "DeepSeekHarnessMobile/Shaders/HarnessBackground.metal": {
     "mode": "644",
-    "sha256": "468ad030de23bdc1525d5b161c31e83449bc7a887e30c5f92c24187455c92ff2"
+    "sha256": "75252488890f6c3442d55170bf31e4c1c654cf7e590ad1205cf424cc74f11a4a"
   },
   "DeepSeekHarnessMobile/Views/ApprovalRequestView.swift": {
     "mode": "644",
     "sha256": "9a78298043bf3b9a6797af51ab8f3aa8f9a675af851349f93767fbce041a6dbf"
   },
+  "DeepSeekHarnessMobile/Views/BotManagementView.swift": {
+    "mode": "644",
+    "sha256": "9ee8174568eb19077656d17f97fa761a8e91f765304d089b651073a679cfbcbb"
+  },
+  "DeepSeekHarnessMobile/Views/BotModeView.swift": {
+    "mode": "644",
+    "sha256": "a50eb53aadc7ce48869f1b9dd56c9ad481903e22ea76b2e9681b8512b3f29273"
+  },
   "DeepSeekHarnessMobile/Views/ConnectorsView.swift": {
     "mode": "644",
-    "sha256": "243df6f931e7a0197ec16dd980fe7c2b52755dc93a227afbe50735bd9c61a53a"
+    "sha256": "e910ec2be585c2f23002e52b12340de3fe5f3dd37f308406b48d1ea78b2a76ec"
   },
   "DeepSeekHarnessMobile/Views/ConversationSidebar.swift": {
     "mode": "644",
-    "sha256": "38d0dc3fd851d4f2c3afc5f329ff9339ed5c5bbb311bbd572ff155de43f4b77e"
+    "sha256": "d84c48f474b89e83c40c99ecfc1ef630501a910d20d76da5b1f9cc4465eafc7e"
   },
   "DeepSeekHarnessMobile/Views/ConversationView.swift": {
     "mode": "644",
-    "sha256": "f703e3db00afca7772d2d59392ee6109d3ef4808d1c50be7765185f955ba2f9c"
+    "sha256": "4db53f6b4717f5df38a79de92b19f3b2c976d9c4403ceb52dd6b5520f2fd5e20"
   },
   "DeepSeekHarnessMobile/Views/DeepClubAccountView.swift": {
     "mode": "644",
@@ -2569,7 +2721,7 @@
   },
   "DeepSeekHarnessMobile/Views/GatewaySwitcherView.swift": {
     "mode": "644",
-    "sha256": "ac14f068ba8e1df3a5b652c6f43231018199424538bf1e1aa056ab5171c53507"
+    "sha256": "61497a7fcba1b976a1e62d5937b133bab628d280e56d90fea49402a0f9bbf7b7"
   },
   "DeepSeekHarnessMobile/Views/HumanQuestionView.swift": {
     "mode": "644",
@@ -2581,15 +2733,15 @@
   },
   "DeepSeekHarnessMobile/Views/PluginsView.swift": {
     "mode": "644",
-    "sha256": "c2f43338634d8b0f3d318794db927a93268a27cd65a65e5c99c4426d3a218319"
+    "sha256": "37f250bda7d9a58021d6945ac56d7b2c3408f77804a87037f6fb06a7b02a0a69"
   },
   "DeepSeekHarnessMobile/Views/RootView.swift": {
     "mode": "644",
-    "sha256": "f694ad55bdd39b34ddc33117d5ecbc5773f1c7856c7d960e42da4b11b41042af"
+    "sha256": "dc2c0c2b886601682b5290532197ce89e8e8798104b0d55ef3dbaee690c40ee7"
   },
   "DeepSeekHarnessMobile/Views/SettingsView.swift": {
     "mode": "644",
-    "sha256": "1785867c3b05e262ac91825e59792f8b124834b632c21797a3ae74c23755e3de"
+    "sha256": "d1b9050cbc93517daed2f83a68ca9cf53c30cce591ef17ed77af689f7c98ca0f"
   },
   "DeepSeekHarnessMobile/Views/TailscaleTunnelView.swift": {
     "mode": "644",
@@ -2601,11 +2753,11 @@
   },
   "DeepSeekHarnessMobile/Views/WorkspaceChangesView.swift": {
     "mode": "644",
-    "sha256": "df1f50f24c73dc84bf828d65ced57316c9e9e5091a53b117a20feb34d56a368b"
+    "sha256": "b34af12d37b15efcb753fcac2f1dc19589d729a4edde47c908be28491b013d08"
   },
   "DeepSeekHarnessMobile/Views/WorkspaceView.swift": {
     "mode": "644",
-    "sha256": "552cf50612d5f00e315b32c199d871f40ad3d229f26cfb218dd9791d159a1972"
+    "sha256": "45cac339e736036c95e48a17ff5cf060c843f88029f861bbf863b4096717227e"
   },
   "DeepSeekHarnessMobileTests/AdaptiveLayoutTests.swift": {
     "mode": "644",
@@ -2613,7 +2765,7 @@
   },
   "DeepSeekHarnessMobileTests/ChatHistoryCacheTests.swift": {
     "mode": "644",
-    "sha256": "99da3fafe803b8d7c0c85b3e24fb4e99ead4df433b085be59a41c1aba6913b64"
+    "sha256": "efc7b71c4228b2e518c14b0b14e42d22af2242d6cc2fa2375717c0d8a405f8ce"
   },
   "DeepSeekHarnessMobileTests/ChatSessionPrefetcherTests.swift": {
     "mode": "644",
@@ -2641,7 +2793,7 @@
   },
   "DeepSeekHarnessMobileTests/GatewayProtocolTests.swift": {
     "mode": "644",
-    "sha256": "79c909fe14eecf4b69087764af661fc974d0e09e0ffe104f8f7ffbe100146f81"
+    "sha256": "ac646bebf25ae34309c69cda72e9c59120e31550b29351ec93e566481e3f93c7"
   },
   "DeepSeekHarnessMobileTests/LocalAppLogTests.swift": {
     "mode": "644",
@@ -2649,7 +2801,7 @@
   },
   "DeepSeekHarnessMobileTests/LocalizationCatalogTests.swift": {
     "mode": "644",
-    "sha256": "8ba6c631287683f50fd9b1379a9dc0c6a0b7b25d87abb30525bfa9981ce693a9"
+    "sha256": "74df579c221e621c616f606d135a36cf68bda17153cfbb4681ee86ce777503c6"
   },
   "DeepSeekHarnessMobileTests/MarkdownMathTests.swift": {
     "mode": "644",
@@ -2657,7 +2809,7 @@
   },
   "DeepSeekHarnessMobileTests/MultiGatewayTests.swift": {
     "mode": "644",
-    "sha256": "7b577a8fecdfebdb4492b272d1be8ac39508955062bc3798509a2d3ce9ce5ed6"
+    "sha256": "7765eea74b297ff0348bc9ecb060c2d9282ab48f675db157a54b3c316dcdc2bf"
   },
   "DeepSeekHarnessMobileTests/NodeForwardingTests.swift": {
     "mode": "644",
@@ -2681,7 +2833,7 @@
   },
   "DeepSeekHarnessMobileTests/WorkspaceChangesViewTests.swift": {
     "mode": "644",
-    "sha256": "6e8564405a687d957f4ea69d4ec567a51b2e490480bfa6194062f42a2ffefa3d"
+    "sha256": "b7325ec97a93bab683f24b6c53b835a5a389db4d2658fc67658ea3df6043d75a"
   },
   "DeepSeekHarnessMobileTests/WorkspaceDrawerFeedbackTests.swift": {
     "mode": "644",
@@ -2693,7 +2845,11 @@
   },
   "DeepSeekHarnessMobileTests/WorkspaceSessionListTests.swift": {
     "mode": "644",
-    "sha256": "1c1b2373d52bd18834e8f934343fde27037e37c368b7c028a33f45b70930a86e"
+    "sha256": "fe8ad1b81f01654ffbe2650a1f6617a39edb566f5fec0e31d0de180140c330d8"
+  },
+  "DeepSeekHarnessMobileUITests/BotModeUITests.swift": {
+    "mode": "644",
+    "sha256": "15879eb8b9e274b02bd4e29f3d66c07df58647e21b71c30c2f746e67b621ef36"
   },
   "DeepSeekHarnessMobileUITests/P4LocalIntegrationUITests.swift": {
     "mode": "644",
@@ -2713,7 +2869,23 @@
   },
   "DeepSeekHarnessMobileUITests/WorkspaceDrawerUITests.swift": {
     "mode": "644",
-    "sha256": "7eba3f9456aba29f0c47fdfe3ab08e779643386fac59e68c8b517d258b1da677"
+    "sha256": "7a59fa016ff1753be09dbf0cc5e01d8f5e41bb5461871624b9e27f8dd91f1898"
+  },
+  "Design/review-fonts/android/font/workspace_mono.ttf": {
+    "mode": "644",
+    "sha256": "48715a42ec242c21e9f02692891e147d022299a52e48d5e413e1a942193ffeda"
+  },
+  "Design/review-fonts/android/font/workspace_noto.ttf": {
+    "mode": "644",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  },
+  "Design/review-fonts/jetbrainsmono-OFL.txt": {
+    "mode": "644",
+    "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+  },
+  "Design/review-fonts/notosanssc-OFL.txt": {
+    "mode": "644",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
   },
   "LICENSE": {
     "mode": "644",
@@ -3673,7 +3845,7 @@
   },
   "Vendor/swift-markdown-ui/Sources/MarkdownUI/Utility/MarkdownContent+Table.swift": {
     "mode": "644",
-    "sha256": "9eb77d78a2584bbc76f7bb77738e9f7801434dd3c5cf9be09260aef87cbc7844"
+    "sha256": "c7d21aecf0cbd604580c2993e89ab4b803305c5c56dd3869fd684733db093882"
   },
   "Vendor/swift-markdown-ui/Sources/MarkdownUI/Utility/RelativeSize.swift": {
     "mode": "644",
@@ -3697,7 +3869,7 @@
   },
   "Vendor/swift-markdown-ui/Sources/MarkdownUI/Views/Blocks/BlockSequence.swift": {
     "mode": "644",
-    "sha256": "cfb974bc8ebef69d8b955864fc9024c2d6a268cdab5cf0e7f73fe1dce9e10894"
+    "sha256": "0b45fa2ce2332d1f7457cf5ac807a406563085451614b349bd4271b452c2be08"
   },
   "Vendor/swift-markdown-ui/Sources/MarkdownUI/Views/Blocks/BlockquoteView.swift": {
     "mode": "644",
@@ -3833,7 +4005,7 @@
   },
   "config/Debug.xcconfig": {
     "mode": "644",
-    "sha256": "2927f27b9e40b197eb5b81943638d39bf06a53badfa1359d9213eb9a922b9da6"
+    "sha256": "e80314399de1b5cfed05ebd20f30d5b916203d131a75881e8b0bb24a32a645d9"
   },
   "config/Local.xcconfig.example": {
     "mode": "644",
@@ -3854,6 +4026,10 @@
   "gradle.properties": {
     "mode": "644",
     "sha256": "7f6c08cadc72e352bfe3f25d5d19c19c350d55fe7a703886dd5bbc9a802d90eb"
+  },
+  "gradle/gradle-daemon-jvm.properties": {
+    "mode": "644",
+    "sha256": "6c13aa5ba36690ccfbbb25a8807d01d98c15833e446d7ae82ddc726472cb8ef7"
   },
   "gradle/libs.versions.toml": {
     "mode": "644",
@@ -3951,6 +4127,18 @@
     "mode": "644",
     "sha256": "58362b14d55a220b16510e89d2225d3e2f570a29ff002569c90e92247b5de3ff"
   },
+  "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/BotBubblePalette.kt": {
+    "mode": "644",
+    "sha256": "94291b7573b66f318fd390c57b705608cfb317eb9a547368ad3d0c261ea55016"
+  },
+  "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/BotCreation.kt": {
+    "mode": "644",
+    "sha256": "f093df3b3924a24a6336a409a3fe037b2ebe4498be360be6c85e5b15df6a0bed"
+  },
+  "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/BotMentionDraft.kt": {
+    "mode": "644",
+    "sha256": "e33e5f08b6c99567a2fa68e1efcf83d6786ac14cddd1e0b16be95de91d92c992"
+  },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/CachedHistoryWindow.kt": {
     "mode": "644",
     "sha256": "ea4f1d606ad6be9cc2a82663615e65f321f35570a784f6fa12eb2926c3922f43"
@@ -3995,6 +4183,14 @@
     "mode": "644",
     "sha256": "567d2b31f35bb6c5ae75fb6f006d07f418b021192b12209a7a57daec5f6e9acf"
   },
+  "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedBotImageTransfer.kt": {
+    "mode": "644",
+    "sha256": "2e61f1eac459b60e2cf4c44cdb519948a7f3566ab87e4bdbafd1866514565dc4"
+  },
+  "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedBotStore.kt": {
+    "mode": "644",
+    "sha256": "4aae54150767339d9e644c40512f9afaf4f3c0b260346b898995c50ac16b559b"
+  },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedConversationStore.kt": {
     "mode": "644",
     "sha256": "e0b77cb31b6bbd13e95a28ad295d41500b155ebc920bf2ff98e9dee942a45032"
@@ -4017,7 +4213,7 @@
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedMobileStore.kt": {
     "mode": "644",
-    "sha256": "def0a5fef34e98aad64e490a345330a30138db55e9d65b7d98ee2a9a46493274"
+    "sha256": "ab0bb479d12ad3bd6d4b98d0135c6649c87da3345f9b778f758b9b612f644d7d"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedMviEvents.kt": {
     "mode": "644",
@@ -4041,7 +4237,7 @@
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedSessionAgentPresetStore.kt": {
     "mode": "644",
-    "sha256": "440ac48fe2a4ddc5b8f21ddfa5c34b7f5c7c2ee8e4eb6b192e8e1d634e9dddb0"
+    "sha256": "6b8b27fe60b5b13737f72d20b05b984b9ba83bcff5b89a1f213abe17f628267f"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedSessionControlStore.kt": {
     "mode": "644",
@@ -4057,7 +4253,7 @@
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedTeamStore.kt": {
     "mode": "644",
-    "sha256": "8552fd99b4d18aa10e635aec3870e1e3da8a7da91316bd17866031c79aa62898"
+    "sha256": "63959e2af77e659afe09a867cebbae7e39401e9383210d4dd517c56e4912928d"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedTrajectoryStore.kt": {
     "mode": "644",
@@ -4073,11 +4269,15 @@
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedWorkspaceChangesStore.kt": {
     "mode": "644",
-    "sha256": "45db15291b0c8b63e3ce98fbbdd42e8613df376dd8a2c1e9f5148dc43dc8bf60"
+    "sha256": "832e0e03e5c42183dfb806b7f49c649b4964080b21ae2bd6bc6dd604627ee187"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/SharedWorkspaceFileStore.kt": {
     "mode": "644",
     "sha256": "ce95fe27d882875b64dd037bae0ed0fb1ae061b7b87286af51f5a4bbea513afe"
+  },
+  "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/TeamModeSnapshot.kt": {
+    "mode": "644",
+    "sha256": "bc51ff58824e78cc8f13e757610b0ef76cd156f7aa296e1f65e67ac75bf8dbc0"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/VoiceInputInteraction.kt": {
     "mode": "644",
@@ -4087,9 +4287,17 @@
     "mode": "644",
     "sha256": "4b018d464e5e03dfc5882ab5f72f955a9ef177446a1ed0ce4659ab5122144e45"
   },
+  "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/WorkspaceChangesStyle.kt": {
+    "mode": "644",
+    "sha256": "d77907b785037ad491b493174ec844324bdfc66e5794f53c519f0af39c45bad5"
+  },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/WorkspaceCodePreviewSupport.kt": {
     "mode": "644",
     "sha256": "03099defbf65676cf02d89c535369c190cfd56efaf517f767e7cfba258145400"
+  },
+  "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/facade/WorkspaceReviewPresentation.kt": {
+    "mode": "644",
+    "sha256": "3d5d9a4dc263dff90557aff4a5e3757e1498f4ef11d029f364cc3e2bd46d4c2c"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/gateway/BoundedGatewayRuntimeEventQueue.kt": {
     "mode": "644",
@@ -4097,15 +4305,15 @@
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/gateway/GatewayProfile.kt": {
     "mode": "644",
-    "sha256": "7995c31ce620a7825058ebff788429f5e65c2adb46fe2d17a3624a948c526dba"
+    "sha256": "adc8d828db2d57a0d99161e68fc7639a2f7c11cc4cd537893eb8d67de41e62b7"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/gateway/GatewayProtocol.kt": {
     "mode": "644",
-    "sha256": "6273fa7eeb523b53c85833e18f38eed2c7c72cbd963137a77e2f5617b3cbd7b4"
+    "sha256": "491a7c7fb934ed912e3937bc31665e37a96c0ea5928fa92c5b1326bfc5134251"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/gateway/GatewayRuntime.kt": {
     "mode": "644",
-    "sha256": "b51f82af6f7a294de042a896dcd4991fb84387ed9609c7a014a987fbd2902c14"
+    "sha256": "7b33bac6181ae390e2323b7e91b37703809c28310a335b4bef15fb3c15eeec0d"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/gateway/SplitGatewayTransport.kt": {
     "mode": "644",
@@ -4133,11 +4341,11 @@
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/projection/TrajectoryProjection.kt": {
     "mode": "644",
-    "sha256": "79f872cc2be4f9c280d4f8a31a310c8b3e10c4e9ea34a6876b798d7682ca5c8d"
+    "sha256": "387b59840deb28503f48a402b18533100f9553d45a25fdb3e1d1a291a1b6bed7"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/protocol/ComposerQuoteDraft.kt": {
     "mode": "644",
-    "sha256": "4e0c89e20e240a602d8ca0a3f6cc34f9fce831b2681678d6429122d116591e2a"
+    "sha256": "42a151523be73360ddf248e552a1679d1bd7238f452496e339e770f1dd151d5d"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/protocol/FailureDetails.kt": {
     "mode": "644",
@@ -4145,7 +4353,7 @@
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/protocol/GatewayDtos.kt": {
     "mode": "644",
-    "sha256": "eaa84f343e313cab7230bfcc1198cdea172ced9931df63c86b3ba33b97f54aa9"
+    "sha256": "cb29344738dc19c75b515f9b53181d5a8fb2a20c5b7f8182743d02dc0c6ac4cd"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/protocol/GatewayWireDecoder.kt": {
     "mode": "644",
@@ -4161,7 +4369,7 @@
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/protocol/ScheduleTaskPresentation.kt": {
     "mode": "644",
-    "sha256": "d54cd2928699b74c1b7ab62bec5128c0d8a8a20aa1fb0d85edd514e4d25d29c8"
+    "sha256": "0feade0bf39fe35966d7e732aa1add26e6784bf1605a4c8c1b35b04c0818f737"
   },
   "shared/src/commonMain/kotlin/com/clarklevis/dsh/shared/protocol/ScheduleTimingEditor.kt": {
     "mode": "644",
@@ -4206,6 +4414,14 @@
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/AssistantStreamStateTest.kt": {
     "mode": "644",
     "sha256": "5422eda594db8ad487b62ef266f7ca17c4d815f3e31f87367a7891744d9daa2a"
+  },
+  "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/BotBubblePaletteTest.kt": {
+    "mode": "644",
+    "sha256": "0c3244f5232c88471ee09c9c6b1f90b2f7580c6e75da467ab055b122160cf250"
+  },
+  "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/BotMentionDraftTest.kt": {
+    "mode": "644",
+    "sha256": "ad724d3489ba92c5c1f6d8f01821ad96828a8b4560cfeddbbd2c03604e02480e"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/BoundedGatewayRuntimeEventQueueTest.kt": {
     "mode": "644",
@@ -4269,7 +4485,7 @@
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/GatewayProfileTest.kt": {
     "mode": "644",
-    "sha256": "867279e0f4c02b8aa632b4b89ef9c9833f47caf92070ef5fc511863e6e1a90a5"
+    "sha256": "fcb47891cbb254171e46344585516ed50693d15b5e73e364b044d2e10a020f6d"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/GatewayProtocolFixtures.kt": {
     "mode": "644",
@@ -4277,7 +4493,7 @@
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/GatewayRuntimeIntegrationTest.kt": {
     "mode": "644",
-    "sha256": "6caa6ca7c321d5147d10ec18cf344f12a74bd66ab42f63c0f402448a9ad5595f"
+    "sha256": "d77ef4db86586372fd3a5c150ef043a3802822024899d4d37a7ab165a613d4ce"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/MarkdownImageReferencesTest.kt": {
     "mode": "644",
@@ -4297,7 +4513,7 @@
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/ProjectionAndHistoryTest.kt": {
     "mode": "644",
-    "sha256": "e25babeb7fe0aff60fa31b107ffe32e2f2d732127c64ad5b9e4cbff9b2867589"
+    "sha256": "9260e74f4cc218d1ff60ddd17a37a5215c6b3163496ee4846acdfc3e22b8f288"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/ProtocolAndReducerTest.kt": {
     "mode": "644",
@@ -4313,11 +4529,19 @@
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/ScheduleTaskPresentationTest.kt": {
     "mode": "644",
-    "sha256": "0068e5e477ee9f0ad74348d0a1f1868fc5ad519f1a7834cbe556e64f5517f7d8"
+    "sha256": "b93b5b6c49695c76dd1e825b5bf4b7e0d30ae33df0a5c78882951e475233bfac"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/ScheduleTimingEditorTest.kt": {
     "mode": "644",
     "sha256": "8b62fc924898a189e6e559e4a194419804c53d988ebe830ae7b5bc85b8ca9835"
+  },
+  "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/SharedBotImageTransferTest.kt": {
+    "mode": "644",
+    "sha256": "8c89c7cd4507d94d9fea4b75e96d0a6f1d691fcff12f5a9f5c09e2d43adee4b9"
+  },
+  "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/SharedBotStoreTest.kt": {
+    "mode": "644",
+    "sha256": "23091a28ace67eb1aec75e3244aed1adf3c968bce7bad24653b378668f4b84e0"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/SharedConversationHistoryIncrementalTest.kt": {
     "mode": "644",
@@ -4377,7 +4601,7 @@
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/SharedSessionAgentPresetStoreTest.kt": {
     "mode": "644",
-    "sha256": "9eb4936a51d2db2c775751bafe216ad6c65e9152412d422cd47b4fb4dc0a673b"
+    "sha256": "7d916197b3ddba82d477cbc3465ccf40e42a4f486e35e434a0035a9cf4559e05"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/SharedSessionControlStoreTest.kt": {
     "mode": "644",
@@ -4391,9 +4615,13 @@
     "mode": "644",
     "sha256": "81fc776624ba66fdfd6ff3ed2c0c2761250c7272c7d8cd50df57a79615a16fd6"
   },
+  "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/SharedTeamModeTest.kt": {
+    "mode": "644",
+    "sha256": "e0ed5bfa5f33ce7fe4e3ee735d435b9e87b6e40c62537e96469ff262735a2fce"
+  },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/SharedTeamStoreTest.kt": {
     "mode": "644",
-    "sha256": "10ec0c329c8f6ddf0b7c71191371cacf379add9824faa2ad2b10de2c59ac8add"
+    "sha256": "6f66bdf5896adc010b178ab92aea55dca2afa0d43287d1288b9aaaf5235f0790"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/SharedTrajectoryStoreTest.kt": {
     "mode": "644",
@@ -4457,7 +4685,7 @@
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/WorkspaceChangesTest.kt": {
     "mode": "644",
-    "sha256": "8efdfaa1402961d3f5c986cd6396f195bacc99df4b80df44a192d8138cd79a80"
+    "sha256": "60284f23efc3a692e8057f99897d56c3f2bf929d6696a37314c9e33ad0870af9"
   },
   "shared/src/commonTest/kotlin/com/clarklevis/dsh/shared/WorkspaceCodePreviewSupportTest.kt": {
     "mode": "644",
