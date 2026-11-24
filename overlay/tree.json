@@ -78,6 +78,14 @@
       "before_sha256": "1b3335c7297a709acb6b6818c473a572f1d6a5f98e104d940cf1e19c068c2215",
       "mode": "644"
     },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/DsBotWhale.imageset/Contents.json": {
+      "before_sha256": "49a89f336cfd2de33af64b7106e34483df7d49bebdccebe1a0b6a3b374d77e7c",
+      "mode": "644"
+    },
+    "DeepSeekHarnessMobile/Resources/Assets.xcassets/DsBotWhale.imageset/ds-bot-whale.svg": {
+      "before_sha256": "6efa9587e2271bab6683ea9e89939d748544defddf7f64dcd2cb314c467abe7e",
+      "mode": "644"
+    },
     "DeepSeekHarnessMobile/Resources/Assets.xcassets/DshOrcaMark.imageset/Contents.json": {
       "before_sha256": "df648f5a570476e12b623fed5f21a8a8dd9a9dddfd42d4e273c5a9cd4fdf320d",
       "mode": "644"
@@ -136,49 +144,54 @@
       "sha256": "059bd118cc8939ed8376879f4d3e7af00132d265a958f2b131db749abf5f7679"
     },
     "AppRelease/release-info.json": {
-      "before_sha256": "795a1a4bd3b56542cecca4c78a1a52dbd68c7e60d4fc2c568cad941a99e7bdc7",
+      "before_sha256": "4e34df04fc61663fed9d58203db92769543c39a2dbeb21fedbb1eea2e5684dc7",
       "mode": "644",
       "sha256": "10ca5718eeceadc6a5f1c3812791bae0057931f462dd27c1a3a1ea62f166d918"
     },
     "AppRelease/release-notes.md": {
-      "before_sha256": "9d6c313227ca6057e0630ab0f9b560620c8b5dab72442f4aba40327cbfcade2a",
+      "before_sha256": "532615f21620ea8e580f12ff35fd0e1fa8e56eb004327bcd24d73834d9306947",
       "mode": "644",
       "sha256": "4e6192d4c63b3f5f242c7a1992628c0649d2fdab838f8142ced155769dbf264c"
     },
     "DeepSeekHarnessMobile.xcodeproj/project.pbxproj": {
-      "before_sha256": "4f3a9e2b32317bc83908bda2735fc71d1ef4a8b24e2863dca4600544d035d269",
+      "before_sha256": "34464346a66eef5da74ccb0a3c1eb789e84bd0195067dff8f3dfb9a460728d3e",
       "mode": "644",
-      "sha256": "7a4f0d7c0f9c4f0b4402e5fddc1d9db3dc1f43e6ddeeea5c36677f5c0f186542"
+      "sha256": "a2ad30f0d04d17f82e9bdab7dd35a346cff2b240370cd1aeaa0f5ccaa292bfad"
     },
     "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/DeepSeekHarnessMobile.xcscheme": {
-      "before_sha256": "58c06e24325aa0a552406d8a25d22ee0a3ff63f0dbf8efe25309a5819ba42e80",
+      "before_sha256": "3120be799bf1410592dd9a68fa99714e3158c0a83f341c18adef689cae8d9f8e",
       "mode": "644",
-      "sha256": "efb1136527f7e3eff82ef563338bdbde5da8383e10a78bdc1b6e280d61811f0a"
+      "sha256": "3b377a06a119bf0a18a7b442424cb8b700cf8aa132a649d809fa5bd949700bb2"
     },
     "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/ShareInboxTests.xcscheme": {
-      "before_sha256": "40cacbfae16f2fbb061be26217d8000195561e70fb0fd0a3920636b69954d9b9",
+      "before_sha256": "d85f768ee892290f5ebe006c0ab1560d728db96193e1a394f32798dcf9a840ac",
       "mode": "644",
       "sha256": "482648284ace86bbd058309434bc05811052ab1e6226792fe47c2d1768b00a18"
     },
-    "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/WorkspaceDrawerUITests.xcscheme": {
-      "before_sha256": "58c06e24325aa0a552406d8a25d22ee0a3ff63f0dbf8efe25309a5819ba42e80",
+    "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/TeamCompatibilityTests.xcscheme": {
+      "before_sha256": "371866107dbb7f3db4892dae9ca92be20ed54a18aa681f617840a1b9f6688b6d",
       "mode": "644",
-      "sha256": "efb1136527f7e3eff82ef563338bdbde5da8383e10a78bdc1b6e280d61811f0a"
+      "sha256": "8e5ea2be78efbcd43da9571af8c5cb56f8f855e97150bb69dc51fd8b4b33c7df"
+    },
+    "DeepSeekHarnessMobile.xcodeproj/xcshareddata/xcschemes/WorkspaceDrawerUITests.xcscheme": {
+      "before_sha256": "3120be799bf1410592dd9a68fa99714e3158c0a83f341c18adef689cae8d9f8e",
+      "mode": "644",
+      "sha256": "3b377a06a119bf0a18a7b442424cb8b700cf8aa132a649d809fa5bd949700bb2"
     },
     "DeepSeekHarnessMobile/App/DeepSeekHarnessMobileApp.swift": {
-      "before_sha256": "ea0d3fc990ac42ee4f9806b19d6cd3b07017f15ad43613c1bfa9ca15c67ee3ea",
+      "before_sha256": "e1054b6df2f7f512cebebee38633f6e3581f2268fef4b80e530de52b56ec7ab9",
       "mode": "644",
-      "sha256": "471a458de96584ed1aab66dd28b75345c5cdf02c7018e887b18dfd52f16a0a1a"
+      "sha256": "4abad9657404d2feebfb77a240855b2e68fba8e34e967f7adcc030aeb56ad777"
     },
     "DeepSeekHarnessMobile/Components/Glass.swift": {
-      "before_sha256": "02f08f488eb40a0dfc833130c69da2fd33ca27ba47959e501449ae973133cbd6",
+      "before_sha256": "f9e2c9e262132a5d75d5b74d3563f33e5abbc204ff8298554373f40eb85cb22b",
       "mode": "644",
-      "sha256": "002950e236237e6864bc9033f3447774ea845ef352e6e6b2fc021f575c906f2a"
+      "sha256": "d1697c6779b2dd88460728c9439d49cc359990c55e067cf43eff1b48a62f4389"
     },
     "DeepSeekHarnessMobile/Components/HarnessAnimatedBackground.swift": {
-      "before_sha256": "98b0c051fdd587b9c51b6424164fbfe3e96bd0c86c59eca998ae100b15b010ff",
+      "before_sha256": "517ff69c0d5d8e729935d4c53d73701acfc8789c404609a172b736dfa3bd7e47",
       "mode": "644",
-      "sha256": "877d395ae465b894a5b7040976918a4091a908ffb64fb1f84f798c85385e98f2"
+      "sha256": "c427172380ce89f27127415e65eeee3769d6f13036ae7ee5df1eb14a6fa6eebb"
     },
     "DeepSeekHarnessMobile/Components/WorkspaceLoadingLogo.swift": {
       "before_sha256": "a7b83b8c7dea71be5833a772718b6c31d502ce33d778152f4421fddd7df90eea",
@@ -186,34 +199,39 @@
       "sha256": "63e93cd95a305bacc66108a76a6ea245d1d3f18297d05dc5744faa6b95945a15"
     },
     "DeepSeekHarnessMobile/Core/AgentBackgroundExecutionController.swift": {
-      "before_sha256": "73e03ec135997835a3c6d17c1abbefa3904920c371ce8dcc6d1e7930c0f52a55",
+      "before_sha256": "1b58f57cb13c21a8026bb4fffdcc032d81f65056bb18bef25b5cc4a30f96e451",
       "mode": "644",
-      "sha256": "fd3de06c3a302b7e1dfdd58de7d9d052152636a194749248091822cd8b3802a2"
+      "sha256": "7259a67d31e694c57fe899d32055c87d7a1bbaaa7b911137acda018b1bf86a1e"
     },
     "DeepSeekHarnessMobile/Core/AgentBackgroundKeepAliveManager.swift": {
       "before_sha256": "d8edb893553dd5dbaa42d60fb7406e45bdd97229af9351f441985a4ff9ab6cc8",
       "mode": "644",
       "sha256": "7485559b770342427e955bde15847f6b32a6c46124dddfbd2df51a4aee3c2b16"
     },
-    "DeepSeekHarnessMobile/Core/AppStore.swift": {
-      "before_sha256": "ce701f327b2699f051cc42d3b39f9b884fb1e519088b52c78348b8bedf09420c",
+    "DeepSeekHarnessMobile/Core/AgentUserNotificationManager.swift": {
+      "before_sha256": "5dceece13b8c05d8de3ccfaa63af2661b9ac66d3f542c95e341c388b76a1fcc1",
       "mode": "644",
-      "sha256": "11deb9c7aed55bae5feb1333afa5752999439386d1cde98ee43ad5e1ab9cc665"
+      "sha256": "7c8a00e9a429f7d4ac14ae16472909dec748e133f1f9336087b443315941aa23"
+    },
+    "DeepSeekHarnessMobile/Core/AppStore.swift": {
+      "before_sha256": "8820847d8c6239946b1ad78f69a26a61cd6d76195f46b061397eac030f850621",
+      "mode": "644",
+      "sha256": "8b97af1493b6924ea2528aca0f4cd42439300f5c0fab53d3f45e801ebcafc88f"
     },
     "DeepSeekHarnessMobile/Core/GatewayClient.swift": {
-      "before_sha256": "7fda0e3103360f408019c97526c132fe7a23f0683d78fcd2b04fb22cff1e14f7",
+      "before_sha256": "77888cd03b4c30cde1be58e26040f41795f6919ce65d56005c0fa1439cbb2caa",
       "mode": "644",
-      "sha256": "c9ff58f31cc2fca75eb29476e61e9bc8e2696c31cedd6cf6bd4875faffe029cb"
+      "sha256": "7257b90804608dd53172193f3540c6648272cab7389716c16d2dfafd3b7a474f"
     },
     "DeepSeekHarnessMobile/Core/GatewayModels.swift": {
-      "before_sha256": "31a7a17ad80278f993d317c3b312f1714961f495552538692efd8c35af03c2e7",
+      "before_sha256": "7baa4b521ce80f13d883a3161520fca2f62b0867bbc3b1a31284ae80896c9115",
       "mode": "644",
-      "sha256": "83bdf61f42a8f2d20649f1a85a30f519df47fd15c7ea4c2c02f3715533c57ff3"
+      "sha256": "1048af1124f4a39c6f6ad69160e7ccd643497f43816a03feb737976fc1c0d83b"
     },
     "DeepSeekHarnessMobile/Core/GatewayProfile.swift": {
-      "before_sha256": "3a34579f866b49167a0fa2da3437958c7b3fa4341ffeefb62bf98a92f817b5f2",
+      "before_sha256": "9e65f68d713db663e585b7f450c59b2247343983d204cb3fa992c1f9a54976bc",
       "mode": "644",
-      "sha256": "0b79dfda4c3506c7967e746f79fa723db0f65b47c6e66f8d65a9d3ecaf2dc679"
+      "sha256": "0fc6822f5992fc32f43b25da05e08aa91d33b8db9bb5b71ab0e10407be5bee9d"
     },
     "DeepSeekHarnessMobile/Core/IncomingShareCoordinator.swift": {
       "before_sha256": "8c87432010eceaa383f3f772d9513e414bf9f71cd3532ec4bd36fd179d804360",
@@ -226,9 +244,9 @@
       "sha256": "b8e963d0db49f9da2d514ea7549a3388948bfc942100c51059a0af9c0017ae8a"
     },
     "DeepSeekHarnessMobile/Core/MultiGatewayStore.swift": {
-      "before_sha256": "f9c56c45024057b482fe7dbd28b5f44c4727a17d8b35541e869e0b66bec46197",
+      "before_sha256": "9099a958c1696e37121ad247d845e708bea68eb3ca08ab2f91689d87bc800941",
       "mode": "644",
-      "sha256": "d98ad0ae25f3e3b939456826253e23f5264094708071878add02ce4b4db6b32c"
+      "sha256": "7fb0f70833858b9e9129abe9b2ac834958737f140f93b8d208c04367f12c0602"
     },
     "DeepSeekHarnessMobile/Core/PairingPayloadParser.swift": {
       "before_sha256": "ce536afb6c24a22a097edef69d22ed363e0bd6dc36af506ac732c2c6f5524e90",
@@ -236,9 +254,9 @@
       "sha256": "6a5ce5b0127a2d938d1edbe207721a49130f4764df411a3ce330cebea7bd4431"
     },
     "DeepSeekHarnessMobile/Core/Theme.swift": {
-      "before_sha256": "a50bf343eba04f36fe811f5704c23d014d1158be1d240e067877ffd81c5ae600",
+      "before_sha256": "2c8f72795bb6130db801d7e5620ac279a55cdafdbc7e2fb9820b4fb4e204385d",
       "mode": "644",
-      "sha256": "5fbde67e84abf704c7afc4f32c2efe7a346cc3242ecb3adabf673d1a6c545cd0"
+      "sha256": "83e000ba35b0fe7e34175394378d43218b5c647ac890e4843b19a9d8a1a82142"
     },
     "DeepSeekHarnessMobile/Core/TsnetTunnel.swift": {
       "before_sha256": "5a945d0288024c84dc97194e0cebb7b4f1bcf6090b515a0568f0a29f42c47599",
@@ -256,14 +274,14 @@
       "sha256": "c958d41130697ce0127f0c8ff82368b4e51f02f779cee37d5b16128e894f2fa3"
     },
     "DeepSeekHarnessMobile/Resources/Info.plist": {
-      "before_sha256": "d693bd55971b53aaafb8ba136f6cd9a82d0d168010bd08a85a65119b43ca09bf",
+      "before_sha256": "5ff0623b6eff1abb423369e355e73e9b132c99c320961420e15e6ff9f51467ba",
       "mode": "644",
-      "sha256": "3e22b8dda02f5ae6c0d870397edaab48cde287f7dbed2dc38182003709e9a4b6"
+      "sha256": "1f9f210a4c06ebd0fbd3700c6840b831797daa5bd18a4b675c360d97ae478491"
     },
     "DeepSeekHarnessMobile/Resources/InfoPlist.xcstrings": {
-      "before_sha256": "3a375d850f3638765e09c3fad429cf57771b7775a0a08da26909650defa4f3fe",
+      "before_sha256": "a62eab7018f18710a7c3850fe3b5d217d19f708282ee281c0b602f7d0dbedf3f",
       "mode": "644",
-      "sha256": "7d16c5645d1f2255f232f0c9e47caf586bed48120f5500ebe6bd955a5143f46c"
+      "sha256": "7b56db9e8d161dcf6fb46514cc5419b097b867053cefae3e013b57aac9ade2eb"
     },
     "DeepSeekHarnessMobile/Resources/LaunchScreen.storyboard": {
       "before_sha256": "f5b143c8a79fd4bd54f8b6ff6f416a90a5ab58effac9d12c43eed6e0ef46a8e7",
@@ -271,29 +289,39 @@
       "sha256": "fb1633e7dce011a997041ac94026f75b6972b48aec775ceb92e8acf302401b30"
     },
     "DeepSeekHarnessMobile/Resources/Localizable.xcstrings": {
-      "before_sha256": "5c58024d3a1bed3af1b27a008503e9a3ddcb64468bec303270f13a00af00e9a4",
+      "before_sha256": "4cea5e163f98d3e3851dd59490451915a9fbb0a3082891f12f35e84254df4812",
       "mode": "644",
-      "sha256": "9e019515f40beacf1bf4ab9b05b080c6b40fbd43ccc99cfe7e965252e40a8e8b"
+      "sha256": "8116e1c19b76c4832ca3508171eb6621cd45dbc8a48b4d289a777236a7299a82"
     },
     "DeepSeekHarnessMobile/Resources/Sharing.entitlements": {
       "before_sha256": "26000ed5d584c73f0dbb4521edd21db2c73b7720bdcd06abeb923c4ea331428a",
       "mode": "644",
       "sha256": "47accece8a463f4a00eb698d174e79a38f00284096c0568fd86d43b16d15aad2"
     },
-    "DeepSeekHarnessMobile/Views/RootView.swift": {
-      "before_sha256": "9fa99189a3a2e5d3cae504725b2db4fd828348e7b83777aa0e62971a994772ed",
+    "DeepSeekHarnessMobile/Views/BotModeView.swift": {
+      "before_sha256": "ec75f897d68bc7df4c2a750a2d98e4e5b78d5a871061f1d1238e2b3b98cee51f",
       "mode": "644",
-      "sha256": "f694ad55bdd39b34ddc33117d5ecbc5773f1c7856c7d960e42da4b11b41042af"
+      "sha256": "a50eb53aadc7ce48869f1b9dd56c9ad481903e22ea76b2e9681b8512b3f29273"
+    },
+    "DeepSeekHarnessMobile/Views/ConversationView.swift": {
+      "before_sha256": "828e718eae16bb2301fac697bf4269a6830a8fdbd6232a590b07a81678a83d21",
+      "mode": "644",
+      "sha256": "4db53f6b4717f5df38a79de92b19f3b2c976d9c4403ceb52dd6b5520f2fd5e20"
+    },
+    "DeepSeekHarnessMobile/Views/RootView.swift": {
+      "before_sha256": "b4b8577790812c610b4178180d497a405144895705df4f424a8d16141dffe4a8",
+      "mode": "644",
+      "sha256": "dc2c0c2b886601682b5290532197ce89e8e8798104b0d55ef3dbaee690c40ee7"
     },
     "DeepSeekHarnessMobile/Views/SettingsView.swift": {
-      "before_sha256": "cc65ffa5cdc3bf89232e21ad9f3cfc79687197934b51df1f697aef6f20fc1909",
+      "before_sha256": "7daeb22cde5905f691c3d4701d60a9965f3c9e51f434e3280af199ce14044e3f",
       "mode": "644",
-      "sha256": "1785867c3b05e262ac91825e59792f8b124834b632c21797a3ae74c23755e3de"
+      "sha256": "d1b9050cbc93517daed2f83a68ca9cf53c30cce591ef17ed77af689f7c98ca0f"
     },
     "DeepSeekHarnessMobile/Views/WorkspaceView.swift": {
-      "before_sha256": "ef96ae5965ec7f3099eb77883c802466e2630b7765e3388ffe070c92a7005b78",
+      "before_sha256": "efd17247748e36be81ec592aafa746294c69c83adb75803167558d28c75dfab9",
       "mode": "644",
-      "sha256": "552cf50612d5f00e315b32c199d871f40ad3d229f26cfb218dd9791d159a1972"
+      "sha256": "45cac339e736036c95e48a17ff5cf060c843f88029f861bbf863b4096717227e"
     },
     "DeepSeekHarnessMobileTests/CodeSyntaxHighlighterTests.swift": {
       "before_sha256": "8ee487885e0fd8948045259f2602f5d37e702b3340a4009a0bde60b989172774",
@@ -331,17 +359,17 @@
       "sha256": "6ed61df09ec861bd440d6c966b436824c034ef569eabb4026bd2dc223d15e797"
     },
     "config/Debug.xcconfig": {
-      "before_sha256": "77357f89a5a1c436b2d09792b74dbdd536d10efe0ab8fb49c476774d13171fff",
+      "before_sha256": "09b78df237137a03904823e5d3923c599cfc035dcc2d9f12cc21e05df0720ed7",
       "mode": "644",
-      "sha256": "2927f27b9e40b197eb5b81943638d39bf06a53badfa1359d9213eb9a922b9da6"
+      "sha256": "e80314399de1b5cfed05ebd20f30d5b916203d131a75881e8b0bb24a32a645d9"
     },
     "config/Local.xcconfig.example": {
-      "before_sha256": "cdf1e2d192974c40c7314ee3db53dd357bbfa528a9c26ae9c153a7385b2a262b",
+      "before_sha256": "3186fd3fe387481989f47f136b052e3f851ba0c744f0bfb0a2c95cb3904f591c",
       "mode": "644",
       "sha256": "3282c661490be6d10d53482f807523e07c51e1454701445403e0c365f5983d89"
     },
     "config/README.md": {
-      "before_sha256": "d412d28101e6f6059266c72aa36970a8fa7dade5a4ea3ed345539b3a12b7b809",
+      "before_sha256": "c2b49ccb05632da5d3dc3ba9a0728e32773c025985eafbace681f0d3e286b148",
       "mode": "644",
       "sha256": "354af627720dc3b8159132bdbaad5ebb92a9db290ace947abfb0dc205197f6ab"
     },

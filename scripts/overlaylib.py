@@ -11,13 +11,17 @@ import subprocess
 import tarfile
 
 ROOT = Path(__file__).resolve().parents[1]
-PIN = "f86f005e3491866a2a7aa03f8894dd606a0dde8b"
+PIN = "f0e860caf05c525bdd2ab1ab4df6d0a93a277b88"
 DIRECTORIES = {"DeepSeekHarnessMobile", "DeepSeekHarnessMobile.xcodeproj",
                "DeepSeekHarnessMobileTests", "DeepSeekHarnessMobileUITests",
                "ActionExtension", "AgentLiveActivityWidget", "ShareExtension", "ShareSupport",
                "AppRelease", "Vendor", "Tests", "config", "gradle", "shared"}
 FILES = {"AGENTS.md", "LICENSE", "build.gradle.kts", "settings.gradle.kts",
-         "gradle.properties", "gradlew", "scripts/build_metal_library.sh"}
+         "gradle.properties", "gradlew", "scripts/build_metal_library.sh",
+         "Design/review-fonts/android/font/workspace_noto.ttf",
+         "Design/review-fonts/android/font/workspace_mono.ttf",
+         "Design/review-fonts/notosanssc-OFL.txt",
+         "Design/review-fonts/jetbrainsmono-OFL.txt"}
 FORBIDDEN = {".git", ".gradle", ".kotlin", ".idea", ".build", ".swiftpm", "build",
              "DerivedData", "node_modules", "__pycache__", ".cache", "xcuserdata", "captures"}
 SENSITIVE_SUFFIXES = {".pem", ".key", ".p8", ".p12", ".pfx", ".jks", ".keystore",
@@ -60,11 +64,13 @@ def exportable(name: str) -> bool:
         return False
     if path.name.startswith(".env") or path.suffix.lower() in SENSITIVE_SUFFIXES:
         return False
+    if name in FILES:
+        return True
     if any(part.startswith("android") for part in path.parts) or path.parts[0] == "tsnetgo":
         return False
     if path.parts[0] == "Vendor" and len(path.parts) > 1 and path.parts[1] not in {"SwiftMath", "swift-markdown-ui"}:
         return False
-    return name in FILES or path.parts[0] in DIRECTORIES
+    return path.parts[0] in DIRECTORIES
 
 
 def safe_path(root: Path, name: str) -> Path:
